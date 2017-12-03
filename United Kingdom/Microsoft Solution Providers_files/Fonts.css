@@ -33,7 +33,7 @@
 
 /*--------------------- Custom Font Declarations For Segoe Segoe MDL2 Assets-------------------*/
 @font-face {
-    font-family: ' ';
+    font-family: 'SegMDL2';
     src: url('Fonts/SegMDL2.1.28.ttf') format('truetype'), url('Fonts/SegMDL2.1.28.woff') format('woff');
 }
 
