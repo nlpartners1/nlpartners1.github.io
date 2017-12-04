@@ -1,0 +1,2281 @@
+﻿/* css rest */
+
+@font-face {
+    font-family: 'Segoe UI Semibold';
+    src: url("fonts/seguisb.eot");
+    src: url("fonts/seguisb.woff") format("woff"), url("fonts/seguisb.otf") format("opentype"), url("fonts/seguisb.svg#seguisb") format("svg");
+    src: local("Segoe UI SemiBold");
+}
+
+@font-face {
+    font-family: 'Segoe UI Semilight';
+    src: url("fonts/segoeuisl.eot");
+    src: url("fonts/segoeuisl.woff") format("woff"), url("fonts/segoeuisl.otf") format("opentype"), url("fonts/segoeuisl.svg#segoeuisl") format("svg");
+    src: local("Segoe UI SemiLight");
+    /*font-weight: 300;*/
+}
+
+/*@font-face {
+    font-family: "Segoe UI light";
+    src: url('fonts/SegoeFonts/SegoeUiLight/latest.eot');
+    src: url('fonts/SegoeFonts/SegoeUiLight/latest.eot?#iefix') format('embedded-opentype'),url('fonts/SegoeFonts/SegoeUiLight/latest.woff') format('woff'),url('/fonts/SegoeFonts/SegoeUiLight/latest.ttf') format('truetype'),url('//i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.svg#web') format('svg');
+}*/
+
+
+@font-face {
+    font-family: 'wf_segoe-ui_light';
+    src: url('fonts/SegoeFonts/SegoeUiLight/latest.eot');
+    src: url('fonts/SegoeFonts/SegoeUiLight/latest.eot?#iefix') format('embedded-opentype'),url('fonts/SegoeFonts/SegoeUiLight/latest.woff') format('woff'),url('/fonts/SegoeFonts/SegoeUiLight/latest.ttf') format('truetype'),url('//i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.svg#web') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'wf_segoe-ui_normal';
+    src: url('fonts/SegoeFonts/SegoeUi/latest.eot');
+    src: url('fonts/SegoeFonts/SegoeUi/latest.eot?#iefix') format('embedded-opentype'),url('fonts/SegoeFonts/SegoeUi/latest.woff') format('woff'),url('fonts/SegoeFonts/SegoeUi/latest.ttf') format('truetype'),url('//i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.svg#web') format('svg');
+    /*font-weight: normal;*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe MDL2';
+    src: url('fonts/SegMDL2.1.97.eot');
+    src: url('fonts/SegMDL2.1.97.woff') format('woff'), url('fonts/SegMDL2.1.97.ttf') format('truetype'), url('fonts/SegMDL2.1.97.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*@font-face
+{
+    font-family: 'wf_icons_normal';
+    src: url('//i.s-microsoft.com/fonts/icons/homepage/normal/2.eot');
+    src: url('//i.s-microsoft.com/fonts/icons/homepage/normal/2.eot?#iefix') format('embedded-opentype'),url('//i.s-microsoft.com/fonts/icons/homepage/normal/2.woff') format('woff'),url('//i.s-microsoft.com/fonts/icons/homepage/normal/2.ttf') format('truetype'),url('//i.s-microsoft.com/fonts/icons/homepage/normal/2.svg#web') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+
+/*@font-face {
+  font-family:  'SegoeUILight', 'SegoeUI';
+  font-weight:100;
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}*/
+/*font setup*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /*border: 0;*/
+    font-size: 100%;
+    /*font: inherit;*/ /*commented by v-kikann for MEPN*/
+    vertical-align: baseline;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    /*line-height: 1;*/
+}
+
+ol, ul {
+    /*list-style: none;*/
+}
+
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*css reset */
+/* Grid Setup */
+
+/*  rows  */
+
+.mpnpopupForgot {
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding: 1%;
+    display: none;
+    border: 1px solid #dbdbdb;
+    float: right;
+    background-color: #ffffff;
+    margin-right: 3%;
+}
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+/*added by v-kikann - starts */
+
+.header-logo {
+    display: block;
+    float: left;
+    margin: 1% 3% 1% 0;
+}
+
+/* Modified by v-rapeda for Dec first release 143727 starts */
+.O365Link {
+    text-align: right;
+    padding-right: 4.5%;
+}
+
+.O365LinkName {
+    float: right;
+    width: 85%;
+    padding-right: 2%;
+}
+/* Modified by v-rapeda for Dec first release 143727 ends */
+
+
+/*.header-logo:first-child {
+        margin-left: 0;
+    }*/
+
+/*added by v-kikann - ends */
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float: left;
+    /*margin: 1% 0 1% 1.5%;*/
+    margin: 1% 0 1% 0;
+}
+
+.searchaerbannerborder {
+    border-top: 5px solid #F4F4F4;
+    width: 100%;
+}
+
+.searchimage {
+    width: auto;
+    height: auto;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+.noMargin {
+    margin: 0%;
+}
+
+.leftMargin {
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: 1.5%;
+    margin-top: 0%;
+}
+
+.leftMarginTiles {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: .5%;
+}
+
+.topMargin {
+    margin-top: 1%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.bottomMargin {
+    margin: 0%;
+    margin-bottom: 1%;
+}
+
+.noPadding {
+    padding: 0%;
+}
+
+.prewrapwhitespace {
+}
+
+.MaxWidth {
+    /*added by v-kikann -- starts --latest*/
+    width: 50%;
+    /*added by v-kikann -- ends --latest*/
+}
+/*added by v-kikann -- starts --latest*/
+.WraplocalizedText {
+    white-space: normal;
+    word-wrap: break-word;
+}
+/*added by v-kikann -- ends --latest*/
+input[type='text'] {
+    content-zooming: zoom;
+    -ms-content-zooming: zoom;
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1; /* For IE 6/7 */
+}
+
+.verticalAlignMiddle {
+    /*display: table;*/
+    /*display: -ms-flexbox;*/
+    -ms-flex-align: center;
+    flex-align: center;
+    display: -ms-flex;
+    -ms-align-items: center;
+}
+
+/*.verticalAlignMiddle div {
+        display: table-cell;
+        vertical-align: middle;
+    }*/
+/*.imageSeperator {
+    float: left;
+    border-left: 1px solid #ababab;
+    padding-top: 3%;
+    margin: 2%;
+    width: 1px;
+    max-height: 60px;
+    height: 60px;
+    display: block;
+    min-height: 60px;
+ 
+}*/
+
+/****Class for home page  design change in tab start****/
+.slider-cols {
+    /*width: 66.16%;*/
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+.tabDiv-cols {
+    /*width: 32.33%;*/
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+.tab-cols {
+    width: 100%;
+}
+
+.excelImage {
+    height: auto;
+    width: auto;
+}
+
+.ques-module {
+    max-width: 700px;
+    /*max-width: 700px;*/
+    margin: 0 auto;
+    border: 1px solid black;
+    display: block;
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    background-color: white;
+    z-index: 9999;
+    /*overflow: auto;*/
+    /*margin-right: 2%;*/
+}
+
+.leftpadding {
+    padding-left: 13%;
+}
+
+.loginID-module {
+    /*max-width: 700px;*/
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    z-index: 10002;
+    overflow: auto;
+    /*margin-right: 2%;*/
+    color: green;
+    background-color: #ffffff;
+    border: 5px solid black;
+    max-width: 450px;
+    /*width: 100%;
+    height: 100%;*/
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.black_overlay {
+    display: block;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    min-height: 1000px;
+    background-color: black;
+    background-repeat: repeat;
+    background-image: url('https://mepndev.azureedge.net/Images/examPopup_bg_repeat.jpg');
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    z-index: 1100;
+    /*-moz-opacity: 0.5;*/
+    /*opacity: .50;
+    filter: alpha(opacity=50);*/
+}
+
+.ques-box {
+    /*background: #008272;*/
+    color: white;
+    float: left;
+    margin: 1%;
+    width: 50px;
+    margin-left: 2%;
+    margin-right: 0%;
+    /*padding: 1%;*/
+}
+
+.authenticatedPanelText {
+    padding-left: 4%;
+}
+
+.infoDiv {
+    color: white;
+    float: left;
+    margin-top: 1%;
+    width: auto;
+    margin-right: 0%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+
+    .infoDiv :empty {
+        color: white;
+        float: left;
+        margin: 0%;
+        width: auto;
+    }
+
+.nav-menu {
+    margin-left: 50px;
+}
+
+    .nav-menu ul li {
+        /*display: inline;
+    padding-right: 2%;
+        */
+        display: block;
+        padding: 0 2% 0 2%;
+        float: left;
+        height: 100%;
+    }
+
+        .nav-menu ul li.selected {
+            background: url('https://mepndev.azureedge.net/Images/MEPN/Paralax_Tab_partrn.png') repeat;
+            /*background: url()*/
+            /*background-color: purple;*/
+        }
+
+        .nav-menu ul li.first-link {
+            padding-left: 6%;
+        }
+
+        .nav-menu ul li div {
+            padding: 18px 0 0 0;
+        }
+
+        .nav-menu ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 14px;
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+
+.nav-full li {
+    display: inline-block;
+}
+
+.toggle-menu {
+    display: none;
+}
+
+
+.ques-modal {
+}
+
+.whiteSpaceWarp {
+    white-space: nowrap;
+    /*added by v-prasr*/
+    word-wrap: break-word;
+}
+
+.aerLogo {
+    width: auto;
+}
+
+/*added by v-kikann for MEPN Master page Header Navigation -- starts */
+.nav-menu1 {
+    margin-left: 0px;
+}
+
+    .nav-menu1 ul li {
+        /*display: inline;
+       padding-right: 2%;*/
+        display: block;
+        /*padding: 0 2% 0 2%;*/
+        /*padding: 0 1% 0 1%;*/
+        float: left;
+        height: 100%;
+    }
+
+        /*.nav-menu1 ul li.selected {
+            background: url('https://mepndev.azureedge.net/Images/MEPN/MEPN_Pattern.png') repeat;
+           }*/
+
+        .nav-menu1 ul li.first-link {
+            padding-left: 6%;
+        }
+
+        .nav-menu1 ul li div {
+            padding: 18px 0 0 0;
+        }
+
+        .nav-menu1 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            /*font-size: 14px;*/
+            font-size: 0.75em;
+            /*font-size: 0.9em;*/
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+/*added by v-kikann for MEPN Master page Header Navigation -- ends */
+.headertext {
+    font-family: 'wf_segoe-ui_light';
+    font-size: 32px;
+    /*padding-top: 60px;
+    padding-bottom: 1%;*/
+}
+
+.eventspartnerconf {
+    /*background-image: url(https://mepndev.azureedge.net/Images/MEPN/WPC.png);*/
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    margin-right: 2%;
+    /*height: 300px;*/
+    height: 120%;
+    background-size: cover;
+}
+
+.onenotelogo {
+    padding-top: 3.5%;
+}
+
+@media only screen and (min-device-width : 480px) and (max-width: 768px) {
+
+    .whiteSpaceWarp {
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    .authenticatedPanelText {
+        padding-left: 0;
+    }
+    /* Modified by v-rapeda for Dec first release 143727 starts*/
+    .O365Link {
+        text-align: left;
+        padding-right: 4.5%;
+    }
+
+    .O365LinkName {
+        float: left;
+        width: 85%;
+        padding-right: 2%;
+        text-align: left;
+    }
+    /* Modified by v-rapeda for Dec first release 143727 ends*/
+}
+
+@media only screen and (min-device-width : 480px) and (max-width: 1020px) {
+    .slider-cols {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    .tabDiv-cols {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    .tab-cols {
+        width: 33.33%;
+    }
+
+    .margintoptakeaer {
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .slider-cols {
+        width: 100%;
+    }
+
+    .sidemenuupdateprofile {
+        width: 50%;
+    }
+
+    .tabDiv-cols {
+        width: 100%;
+    }
+
+    .tab-cols {
+        width: 100%;
+    }
+
+    .MaxWidth {
+        max-width: 50%;
+    }
+
+    .authenticatedPanelText {
+        padding-left: 0;
+    }
+
+    .onenotelogo {
+        padding-top: 4%;
+    }
+}
+
+
+/****Class for home page  design change in tab end****/
+
+/*  GRID OF TWELVE  */
+.twelve-cols {
+    width: 100%;
+}
+
+.eleven-cols {
+    width: 91.54%;
+}
+
+.ten-cols {
+    width: 83.08%;
+}
+
+.nine-cols {
+    width: 74.62%;
+}
+
+.eight-cols {
+    width: 66.16%;
+}
+
+.seven-cols {
+    width: 57.70%;
+}
+
+.six-cols {
+    width: 49.25%;
+}
+
+.five-cols {
+    width: 40.79%;
+}
+/*code added start by v-prasr for SMBAER V2.2*/
+.fourpointfive-cols {
+    /*width: 31.311%;*/
+    width: 37.31%;
+}
+/*code added end by v-prasr for SMBAER V2.2*/
+.four-cols {
+    width: 32.33%;
+}
+
+.three-cols {
+    width: 23.87%;
+}
+/*code added start by v-prasr for SMBAER V2.2*/
+.twopointfive-cols {
+    width: 17.395%;
+}
+/*code added end by v-prasr for SMBAER V2.2*/
+.two-cols {
+    width: 15.41%;
+}
+
+.one-cols {
+    width: 6.958%;
+}
+
+
+/*constant width class irrespective of device start*/
+/*  GRID OF TWELVE  */
+.twelve-cnst {
+    width: 100%;
+}
+
+.eleven-cnst {
+    width: 91.54%;
+}
+
+.ten-cnst {
+    width: 83.08%;
+}
+
+.nine-cnst {
+    width: 74.62%;
+}
+
+.eight-cnst {
+    width: 66.16%;
+}
+
+.seven-cnst {
+    width: 57.70%;
+}
+
+.six-cnst {
+    width: 49.25%;
+}
+
+.five-cnst {
+    width: 40.79%;
+}
+/*code added start by v-prasr for SMBAER V2.2*/
+.fourpointfive-cnst {
+    /*width: 31.311%;*/
+    width: 37.31%;
+}
+/*code added end by v-prasr for SMBAER V2.2*/
+.four-cnst {
+    width: 32.33%;
+}
+
+.three-cnst {
+    width: 23.87%;
+}
+/*code added start by v-prasr for SMBAER V2.2*/
+.twopointfive-cnst {
+    width: 17.395%;
+}
+/*code end start by v-prasr for SMBAER V2.2*/
+.two-cnst {
+    width: 15.41%;
+}
+
+.one-cnst {
+    width: 6.958%;
+}
+
+.checkbox {
+    transform: scale(1);
+}
+
+/*constant width class irrespective of device end*/
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+
+    .searchaerbannerborder {
+        border-top: 0.1px solid #ffffff;
+        width: 100%;
+    }
+
+    .searchimage {
+        width: 15%;
+        height: auto;
+    }
+
+    .prewrapwhitespace {
+        white-space: pre-wrap;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .twelve-cols {
+        width: 100%;
+    }
+
+    .eleven-cols {
+        width: 100%;
+    }
+
+    .ten-cols {
+        width: 100%;
+    }
+
+    .nine-cols {
+        width: 100%;
+    }
+
+    .eight-cols {
+        width: 100%;
+    }
+
+    .seven-cols {
+        width: 100%;
+    }
+
+    .six-cols {
+        width: 100%;
+    }
+
+    .five-cols {
+        width: 100%;
+    }
+    /*code added start by v-prasr*/
+    .fourpointfive-cols {
+        width: 100%;
+    }
+    /*code added end by v-prasr*/
+    .four-cols {
+        width: 100%;
+    }
+
+    .three-cols {
+        width: 100%;
+    }
+    /*code added start by v-prasr*/
+    .twopointfive-cols {
+        width: 100%;
+    }
+    /*code added end by v-prasr*/
+    .two-cols {
+        width: 100%;
+    }
+
+    .one-cols {
+        width: 100%;
+    }
+
+    .leftpadding {
+        padding-left: 0%;
+    }
+
+    .leftmargintwo {
+        margin-left: 4%;
+    }
+
+    .ques-module {
+        max-width: 600px;
+        margin: 0 auto;
+        border: 1px solid black;
+        display: block;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        width: 90%;
+        background-color: white;
+        overflow: auto;
+    }
+
+    .loginID-module {
+        /*max-width: 700px;*/
+        margin: 0 auto;
+        display: block;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        width: 90%;
+        z-index: 10002;
+        overflow: auto;
+        /*margin-right: 2%;*/
+        color: green;
+        background-color: #ffffff;
+        border: 5px solid black;
+        max-width: 450px;
+        /*width: 100%;
+    height: 100%;*/
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .clear-seperator {
+        display: none;
+    }
+
+    .checkbox {
+        transform: scale(0.8);
+    }
+
+    .leftspacing {
+        padding-left: 20%;
+    }
+
+    .black_overlay {
+        /*display: none;*/
+    }
+
+    .ques-box {
+        background: #008272;
+        color: white;
+        float: left;
+        margin: 1%;
+    }
+}
+
+/* end of grid setup */
+
+
+/*components */
+body {
+    font-family: wf_segoe-ui_normal, wf_segoe-ui_normal !important;
+    font-size: 100%;
+    /*line-height: 1.6875;*/
+}
+
+h2 {
+    font-family: "wf_segoe-ui_light";
+    font-size: 2em;
+}
+
+h3 {
+    font-family: "wf_segoe-ui_light";
+    font-size: 1.75em;
+}
+
+h4 {
+    font-family: "wf_segoe-ui_light";
+    font-size: 1.5em;
+}
+
+h5 {
+    font-family: "wf_segoe-ui_light";
+    font-size: 1.25em;
+}
+
+h6 {
+    font-family: "wf_segoe-ui_light";
+    font-size: 1em;
+}
+/*code added start by v-prasr for SMBAER V2.2*/
+img {
+    /*width: 100%;*/
+    width: auto;
+    height: auto;
+}
+/*code added end by v-prasr for SMBAER V2.2*/
+
+@media only screen and (min-device-width : 480px) and (max-width: 1080px) {
+    body {
+        font-size: 80%;
+    }
+
+    .bannerText {
+        /*top: 5%;*/
+        max-width: 50%;
+    }
+
+    .evtContentbg {
+        height: 350px;
+    }
+
+    .evtContentdes {
+        height: 270px;
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 18px 5% 0 5%;
+        /*padding-top:18px;
+     padding-bottom:25px;*/
+    }
+}
+/*added by v-kikann for MEPN -- starts*/
+@media only screen and (min-device-width : 800px) and (max-width: 1080px) {
+    .hdr-col1 {
+        width: 35%;
+    }
+
+    .hdr-col2 {
+        width: 70%;
+    }
+
+    .nav-menu1 ul li {
+        padding: 0 0.5% 0 0.5%;
+    }
+
+        .nav-menu1 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 0.75em; /*10px;*/
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+    .nav-menu2 ul li {
+        padding: 0 1% 0 1%;
+    }
+
+        .nav-menu2 ul li div {
+            /*padding: 18px 0 0 0;*/
+            /*padding: 16.5px 0 16px 0;*/
+            padding: 0;
+        }
+
+        .nav-menu2 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 0.75em;
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+    .hdrAEP {
+        background: #293B49;
+    }
+}
+
+@media only screen and (min-device-width : 480px) and (max-width: 780px) {
+    .hdr-col1 {
+        width: 35%;
+    }
+
+    .hdr-col2 {
+        width: 65%;
+    }
+
+    .nav-menu1 ul li {
+        padding: 0 0.6% 0 0.6%;
+    }
+
+        .nav-menu1 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 0.75em; /*10px;*/
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    /* Default Menu Styling */
+    /*.nav-menu1 .toggle-menu {
+        display: block;
+    }
+
+    .nav-menu1 ul {
+        display: none;
+        overflow: hidden;
+    }
+
+        .nav-menu1 ul li {
+            display: block;
+            padding: 5px;
+            font-size: 125%;
+            float: none;
+        }
+
+            .nav-menu1 ul li div {
+                padding: 0;
+            }
+
+            .nav-menu1 ul li :visited {
+                display: block;
+                padding: 5px;
+                font-size: 125%;
+                color: blue;
+            }
+
+            .nav-menu1 ul li.first-link {
+                padding-left: 5px;
+            }
+
+    .nav-menu1 label {
+        background-color: #238dad;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        padding: 5px;
+    }*/
+
+    /*input {
+        display: none;
+    }*/
+    .nav-menu2 ul li {
+        padding: 0 1% 0 1%;
+    }
+
+        .nav-menu2 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 0.75em;
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    /* Default Menu Styling */
+    /*.nav-menu2 .toggle-menu {
+        display: block;
+    }
+
+    .nav-menu2 ul {
+        display: none;
+        overflow: hidden;
+    }
+
+        .nav-menu2 ul li {
+            display: block;
+            padding: 5px;
+            font-size: 125%;
+            float: none;
+        }
+
+            .nav-menu2 ul li div {
+                padding: 0;
+            }
+
+            .nav-menu2 ul li :visited {
+                display: block;
+                padding: 5px;
+                font-size: 125%;
+                color: blue;
+            }
+
+            .nav-menu2 ul li.first-link {
+                padding-left: 5px;
+            }
+
+    .nav-menu2 label {
+        background-color: #238dad;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        padding: 5px;
+    }
+
+    .menuChkbox {
+        display: none;
+    }
+
+    Toggle The Visibility .nav-menu1 input:checked ~ label {
+        background: #ff8800;
+    }
+
+    .nav-menu1 input:checked ~ ul {
+        display: block;
+    }
+
+    Toggle The Visibility .nav-menu2 input:checked ~ label {
+        background: #ff8800;
+    }
+
+    .nav-menu2 input:checked ~ ul {
+        display: block;
+    }*/
+
+    .homebtnmob {
+        display: block;
+        float: none;
+        padding-right: 100px;
+    }
+
+    .homebtndskp {
+        display: none;
+    }
+
+    .hdr-col1 {
+        width: 100%;
+    }
+
+    .hdr-col2 {
+        width: 100%;
+    }
+
+    .main-nav {
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+
+    .nav-menu1 .nav-menu2 {
+        margin-left: 0;
+    }
+
+    .hdrlogo {
+        float: left;
+        padding: 2%;
+    }
+
+    .ITAcademy {
+        height: auto;
+        padding: 0 8% 0 8%;
+    }
+
+
+    .joinbgimg {
+        background-image: url(https://mepndev.azureedge.net/Images/MEPN/paralax_homepage_Network.png);
+        background-repeat: no-repeat;
+        min-height: 250px;
+        background-size: 500px;
+    }
+
+    .jointext1 {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 8px;
+        color: #FFFFFF;
+        text-align: center;
+        width: 80px;
+        left: 160px;
+        top: 90px;
+        position: relative;
+    }
+
+        .jointext1 p {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 10px;
+        }
+
+    .jointext2 {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 8px;
+        color: #FFFFFF;
+        text-align: center;
+        width: 80px;
+        left: 280px;
+        top: 55px;
+        position: relative;
+    }
+
+        .jointext2 p {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 10px;
+        }
+
+    .jointext3 {
+        font-family: 'wf_segoe-ui_light';
+        font-size: 12px;
+        color: #FFFFFF;
+        text-align: center;
+        left: 370px;
+        top: 20px;
+        position: relative;
+    }
+
+        .jointext3 a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 14px;
+            color: #FFFFFF;
+            /*text-align: center;
+        left: 415px;
+        top: 0;
+        position: relative;*/
+        }
+
+    .scstoriesvdcont {
+        margin-top: -110px;
+    }
+
+    .cityNextbg {
+        float: left;
+        height: auto;
+        background-size: 100% 100%;
+    }
+
+    .offlogo {
+        padding: 35px 3% 3% 3%;
+    }
+
+    .windlogo {
+        padding: 0 3% 3% 3%;
+    }
+
+    .dynslogo {
+        padding: 30px 3% 3% 3%;
+    }
+
+    .azrlogo {
+        padding: 38px 3% 3% 3%;
+    }
+
+    .evntblkbg1 {
+        background-image: url('https://mepndev.azureedge.net/Images/MEPN/paralax_homepage_v2-offer-image.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 0;
+        margin-right: 2%;
+        height: 150px;
+    }
+
+    .evntblkbg2 {
+        background-color: #FFB900;
+        height: 150px;
+    }
+
+        .evntblkbg2 img {
+            width: 100%;
+        }
+
+    .evtOff365Logo {
+        padding-top: 50px;
+    }
+
+    .scStories {
+        padding-bottom: 10%;
+    }
+
+    .connectmailicons img {
+        padding: 0;
+    }
+
+    .evntblkbg2Left {
+        height: 130px;
+        width: 15%;
+        padding: 10px 0 0 5%;
+        float: left;
+    }
+
+        .evntblkbg2Left img {
+            width: 70%;
+            height: 100%;
+        }
+
+    .clsroomlogo {
+        width: 150%;
+    }
+
+    .nav-menu2 ul li {
+        padding: 0 1% 0 1%;
+    }
+
+        .nav-menu2 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 0.75em;
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    /* Default Menu Styling */
+    /*.nav-menu2 .toggle-menu {
+        display: block;
+    }
+
+    .nav-menu2 ul {
+        display: none;
+        overflow: hidden;
+    }
+
+        .nav-menu2 ul li {
+            display: block;
+            padding: 5px;
+            font-size: 125%;
+            float: none;
+        }
+
+            .nav-menu2 ul li div {
+                padding: 0;
+            }
+
+            .nav-menu2 ul li :visited {
+                display: block;
+                padding: 5px;
+                font-size: 125%;
+                color: blue;
+            }
+
+            .nav-menu2 ul li.first-link {
+                padding-left: 5px;
+            }
+
+    .nav-menu2 label {
+        background-color: #238dad;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        padding: 5px;
+    }*/
+
+    .hdrAEP {
+        background: #293B49;
+    }
+}
+
+/*added by v-kikann for MEPN -- ends*/
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 70%;
+    }
+
+    .mpnpopupForgot {
+        top: 0;
+        left: 0;
+        width: 190px;
+        height: auto;
+        background-color: rgba(0,0,0,0.5);
+        padding: 1%;
+        display: none;
+        border: 1px solid #dbdbdb;
+        float: right;
+        background-color: #ffffff;
+        margin-right: 3%;
+    }
+
+    /*.imageSeperator {
+        float: left;
+        border-left: 1px solid #ababab;
+       
+        margin: 2%;
+        width: 95%;
+        max-height: 1px;
+        height: auto;
+        display: none;
+    }*/
+    .manageuser-userdetails {
+        padding-left: 4%;
+    }
+
+
+    .headerbg {
+        height: auto;
+    }
+
+    .hdrAEP {
+        background: #293B49;
+    }
+
+    .nav-full ul li {
+        display: block;
+    }
+
+    /* Default Menu Styling */
+    .toggle-menu {
+        display: block;
+    }
+
+    .nav-menu ul {
+        display: none;
+        overflow: hidden;
+    }
+
+        .nav-menu ul li {
+            display: block;
+            padding: 5px;
+            font-size: 125%;
+            float: none;
+        }
+
+            .nav-menu ul li div {
+                padding: 0;
+            }
+
+            .nav-menu ul li :visited {
+                display: block;
+                padding: 5px;
+                font-size: 125%;
+                color: blue;
+            }
+
+            .nav-menu ul li.first-link {
+                padding-left: 5px;
+            }
+
+    .nav-menu label {
+        background-color: #238dad;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        padding: 5px;
+    }
+
+    /*input {
+        display: none;
+    }*/
+
+    .menuChkbox {
+        display: none;
+    }
+    /* Toggle The Visibility */
+    .nav-menu input:checked ~ label {
+        background: #ff8800;
+    }
+
+    .nav-menu input:checked ~ ul {
+        display: block;
+    }
+
+    .ques-modal {
+        top: 10%;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+    }
+
+    .nav-menu1 ul {
+        display: none;
+        overflow: hidden;
+    }
+
+        .nav-menu1 ul li {
+            display: block;
+            padding: 5px;
+            font-size: 125%;
+            float: none;
+        }
+
+            .nav-menu1 ul li div {
+                padding: 0;
+            }
+
+            .nav-menu1 ul li :visited {
+                display: block;
+                padding: 5px;
+                font-size: 125%;
+                color: blue;
+            }
+
+            .nav-menu1 ul li.first-link {
+                padding-left: 5px;
+            }
+
+    .nav-menu1 label {
+        background-color: #238dad;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        background: #30164d;
+        padding: 5px;
+    }
+
+    .nav-menu1 input:checked ~ label {
+        background: #ff8800;
+    }
+
+    .nav-menu1 input:checked ~ ul {
+        display: block;
+    }
+    /*added start by v-prasr for MEPN ReleaseV3.3*/
+    .nav-menu2 ul {
+        display: none;
+        overflow: hidden;
+    }
+
+        .nav-menu2 ul li {
+            display: block;
+            padding: 5px;
+            font-size: 125%;
+            float: none;
+            width: 100%;
+        }
+
+            .nav-menu2 ul li div {
+                padding: 0;
+            }
+
+            .nav-menu2 ul li :visited {
+                display: block;
+                padding: 5px;
+                font-size: 125%;
+                color: blue;
+            }
+
+            .nav-menu2 ul li.first-link {
+                padding-left: 5px;
+            }
+
+            .nav-menu2 ul li.selected {
+                background: url('https://mepndev.azureedge.net/Images/MEPN/AER_SubMenu_Selection_Partn.png') repeat;
+                /*background-color: #00ADEF;*/
+                /*padding-bottom: 12px;*/
+            }
+
+    .nav-menu2 label {
+        background-color: #238dad;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        padding: 5px;
+    }
+
+    .nav-menu2 input:checked ~ label {
+        background: #ff8800;
+    }
+
+    .nav-menu2 input:checked ~ ul {
+        display: block;
+        background: #293B49;
+    }
+    /*added end by v-prasr for MEPN ReleaseV3.3*/
+}
+
+
+.showinmobile {
+    display: none;
+}
+
+.showindesktop {
+    display: block;
+}
+
+@media only screen and (max-width: 480px) {
+    .showinmobile {
+        /*display:block;*/ /*Commented by v-kikann for testing*/
+        display: none;
+    }
+
+    .showindesktop {
+        /*display:none;*/ /*Commented by v-kikann for testing*/
+        display: block;
+    }
+    /*added by v-kikann for MEPN -- starts*/
+
+    #bannerDsktp {
+        display: none;
+    }
+
+    #bannermob {
+        padding: 2%;
+        display: block;
+        color: #FFFFFF;
+        max-width: 90%;
+        font-size: 0.3em;
+        text-align: left;
+    }
+
+
+    .bannerText {
+        color: #FFFFFF;
+        max-width: 90%;
+        font-size: 0.3em;
+        text-align: left;
+        position: relative;
+        top: 35%;
+        left: 6px;
+    }
+
+    #winwithusmobile {
+        display: block;
+    }
+
+    #winwithusDesktop {
+        display: none;
+    }
+
+    .headertext {
+        font-size: 28px;
+        padding-top: 60px;
+        padding-bottom: 1%;
+    }
+
+    .contentfont {
+        font-size: 14px;
+    }
+
+    #winwithusmobile sectionHeader {
+        margin-top: 20px;
+    }
+
+    .linkstyle {
+        font-size: 12px;
+    }
+
+    #pagerDesktop {
+        display: none;
+    }
+
+    #pagermobile {
+        display: block;
+    }
+
+        #pagermobile a {
+            padding: 4%;
+        }
+
+    .whyPtnrsliderimage {
+        width: 100%;
+        float: left;
+    }
+
+    .whyPtnrslidercont {
+        float: right;
+        width: 100%;
+    }
+
+    .sliderContent {
+        padding-top: 20px;
+    }
+
+    .scStories {
+        padding-bottom: 15%;
+    }
+
+    .scstoriesvdcont {
+        margin-top: 0;
+    }
+
+    #prodslnDesktop {
+        display: none;
+    }
+
+    #prodslnmobile {
+        display: block;
+    }
+
+    .prodheader {
+        padding-right: 10%;
+    }
+
+    .Prodcontent {
+        padding-right: 10%;
+    }
+
+    .ITAcademy {
+        padding: 0 10% 0 8%;
+        background-size: 100% 100%;
+    }
+
+    #newsnavDesktop {
+        display: none;
+    }
+
+    #newsnavmobile {
+        display: block;
+    }
+
+        #newsnavmobile a {
+            padding: 4%;
+        }
+
+    .newsslidercont {
+        width: 100%;
+        float: right;
+        font-size: 20px;
+        padding-top: 5%;
+    }
+
+    .newssliderimage {
+        width: 100%;
+        float: left;
+    }
+
+    .joincontent {
+        font-size: 14px;
+    }
+
+    .scStoriesmob {
+        width: 100%;
+    }
+
+    .joinbgimg {
+        background-image: url(https://mepndev.azureedge.net/Images/MEPN/paralax_homepage_Network.png);
+        background-repeat: no-repeat;
+        min-height: 180px;
+        background-size: 100%;
+    }
+
+    .jointext1 {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 8px;
+        color: #FFFFFF;
+        text-align: center;
+        width: 80px;
+        left: 29%;
+        top: 58px;
+        position: relative;
+    }
+
+        .jointext1 p {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 10px;
+        }
+
+    .jointext2 {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 8px;
+        color: #FFFFFF;
+        text-align: center;
+        width: 80px;
+        left: 53%;
+        top: 25px;
+        position: relative;
+    }
+
+        .jointext2 p {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 10px;
+        }
+
+    .jointext3 {
+        font-family: 'wf_segoe-ui_light';
+        font-size: 10px;
+        color: #FFFFFF;
+        text-align: center;
+        width: 60px;
+        left: 80%;
+        top: -15px;
+        position: relative;
+    }
+
+        .jointext3 a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 12px;
+            color: #FFFFFF;
+            /*text-align: center;
+            width: 100px;
+            left: 81%;
+            top: -28px;
+            position: relative;*/
+        }
+
+    .homebtn {
+        float: none;
+        padding-right: 100px;
+    }
+
+    .homebtnmob {
+        display: block;
+        float: none;
+        padding-right: 100px;
+    }
+
+    .homebtndskp {
+        display: none;
+    }
+
+    .headercol1 {
+        width: 30%;
+        display: block;
+        float: left;
+        /*margin: 1% 0 1% 0;*/
+    }
+
+    .headercol2 {
+        padding: 2%;
+        width: 20%;
+        /*float: left;*/
+    }
+
+    .headercol3 {
+        padding: 2%;
+        width: 40%;
+        /*float: left;*/
+    }
+
+    .headercol4 {
+        padding: 2%;
+        width: 35%;
+        float: left;
+        text-align: left;
+    }
+
+    .lnkAERDesktop {
+        display: none;
+    }
+
+    .lnkAERmob {
+        display: block;
+    }
+
+    .fdbkbtn {
+        font-size: 10px;
+    }
+
+    .footer {
+        width: 94%;
+        position: relative;
+        margin-top: 130px;
+        padding: 0 3% 0 3%;
+        background-color: #D2D2D2;
+        /*min-height: 400px;*/
+        float: left;
+        font-family: 'wf_segoe-ui_normal';
+        color: #505050;
+    }
+
+        .footer h4 {
+            padding: 1%;
+            font-size: 10px;
+            font-family: 'wf_segoe-ui_normal';
+        }
+
+        .footer h5 {
+            padding: 1%;
+            font-size: 8px;
+            font-family: 'wf_segoe-ui_normal';
+        }
+
+    .cnctmobileMargin {
+        margin: 2% 0 2% 0;
+    }
+    /*#evntbannermbl
+    {
+        display: block;
+    }
+    #evntbannerDsktp
+    {
+        display: none;
+    }*/
+    .bannerDescmob {
+        display: block;
+    }
+
+    .bannerDescDsktp {
+        display: none;
+    }
+
+    .contentpadding {
+        text-align: center;
+        /*background-color: #FFFFFF;*/
+        /*margin: 5% 1% 5% 0;*/
+        padding: 0 2% 0 2%;
+        /*border: 1px solid #000000;*/
+        /*position: relative;*/
+        /*z-index: 10000;*/
+    }
+
+    .events img {
+        width: auto;
+    }
+
+    .evntShareLinks {
+        text-align: right;
+    }
+
+    .eventsHeader {
+        padding: 0 2% 2% 2%;
+    }
+
+    .eventsContent {
+        padding: 0 2% 2% 2%;
+    }
+
+    .eventsGEPHeader {
+        padding: 0 2% 2% 2%;
+    }
+
+    .eventsGEPContent {
+        padding: 0 2% 2% 2%;
+    }
+
+    .evntDecks {
+        /*padding: 0 5% 2% 5%;*/
+        font-size: 18px;
+        font-family: 'wf_segoe-ui_light';
+    }
+
+    .footerlinks {
+        font-size: 0.8em;
+        padding: 1%;
+    }
+
+    #evntsec2desktp {
+        display: none;
+    }
+
+    #evntsec2mob {
+        display: block;
+    }
+
+    #eduempDsktp {
+        display: none;
+    }
+
+    #eduempmob {
+        display: block;
+    }
+
+    .mobview {
+        display: block;
+    }
+
+    .dsktpView {
+        display: none;
+    }
+
+    .cityNextbg {
+        /*background: url('https://mepndev.azureedge.net/Images/MEPN/gotoMarket_CityNext_bg.jpg') no-repeat right center;*/
+        float: left;
+        height: auto;
+        background-size: 100% 100%;
+    }
+
+    .editimg {
+        position: absolute;
+        top: 230px;
+        left: 85%;
+    }
+
+    .editcontent {
+        /*position: absolute;
+        top: 670px;
+        left: 85%;*/
+        position: relative;
+        bottom: 0px;
+        left: -8px;
+    }
+
+    .newsroundedImg {
+        margin: 0 10% 0 10%;
+    }
+
+    .evntblkbg1 {
+        background-size: auto;
+    }
+
+    .main-nav {
+        /*padding: 0;
+        margin: 0;*/
+        height: auto;
+    }
+
+    .connectseperator {
+        border-top: 1px dashed #ababab;
+        float: right;
+        height: 2px;
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    #connectDiv .four-cols {
+    }
+
+    .AERsctnPadding {
+        padding: 0;
+    }
+
+    .aerLogo {
+        width: 100%;
+    }
+
+    .nav-menu1 {
+        margin-left: 0;
+    }
+
+    .hdr-col1 {
+        width: 100%;
+    }
+
+    .hdr-col2 {
+        width: 100%;
+    }
+
+    .nav-menu1 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 0.75em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .nav-menu2 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 0.75em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .bingheightmobile {
+        max-height: 33px;
+    }
+
+    .marketcontentimg {
+        text-align: center;
+    }
+
+        .marketcontentimg img {
+            width: 65%;
+        }
+
+    .aerimage {
+        width: 70%;
+    }
+
+    .evtContentbg {
+        height: 280px;
+    }
+
+    .evtContentdes {
+        height: 200px;
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 18px 5% 0 5%;
+    }
+
+    .offlogo {
+        padding: 27px 3% 3% 3%;
+    }
+
+    .windlogo {
+        padding: 5px 3% 3% 3%;
+        width: 110px;
+    }
+
+    .dynslogo {
+        padding: 20px 3% 3% 3%;
+    }
+
+    .azrlogo {
+        padding: 30px 3% 3% 3%;
+    }
+
+    .ITAcademy h4 {
+        font-size: 16px;
+    }
+
+    .evntblkbg2 {
+        height: 200px;
+    }
+
+    .evtOff365Logo {
+        padding-top: 70px;
+        width: 75%;
+    }
+
+    .evntblkbg1 {
+        height: 200px;
+    }
+
+    .connecthdr {
+        font-size: 14px;
+    }
+
+    .hidemenu {
+        display: none;
+    }
+
+    .Homebannerimg {
+        background-image: url(https://mepndev.azureedge.net/Images/MEPN/Paralax-Mobile-Banner.png);
+    }
+
+    .parallax-scoll-nav {
+        z-index: 1000;
+    }
+
+    .evntsummitLogo {
+        width: 150%;
+    }
+
+    .fileUpload {
+        width: 80%;
+    }
+
+    .menulinksnotselected {
+        font-size: 12px;
+    }
+
+    #divUserContent span {
+        font-size: 12px;
+    }
+
+    .hdrlogo {
+        float: left;
+        /*padding: 5% 3% 3% 3%;*/
+        padding: 5% 3% 3% 2%;
+    }
+
+    .connectmailicons img {
+        padding: 3%;
+    }
+
+    .evntblkbg2Left {
+        height: 180px;
+        width: 15%;
+        padding: 10px 0 0 5%;
+        float: left;
+    }
+
+        .evntblkbg2Left img {
+            width: auto;
+            height: 100%;
+        }
+
+    .evntdwnldmbl {
+        display: block;
+    }
+
+    .evntdwnlddsktp {
+        display: none;
+    }
+
+    .clsroomlogo {
+        width: 100%;
+    }
+    /*added by v-kikann for MEPN -- ends*/
+    .eventspartnerconf {
+        /*height: 500px;*/
+        height: 120%;
+    }
+}
+/*added start by v-prasr for MEPN ReleaseV3.3 >900px*/
+@media only screen and (min-width: 1020px) {
+    .bingheightmobile {
+        max-height: initial;
+    }
+
+    .nav-menu2 {
+        margin-left: 0px;
+    }
+
+        /*.nav-menu2 ul li {
+            display: block;
+            padding: 0 2%;
+            float: left;
+            /*height: 100%;*/ /*
+        }*/
+        .nav-menu2 ul li {
+            display: block;
+            padding: 3px 0 0 0;
+            float: left;
+            height: 100%;
+        }
+
+
+            .nav-menu2 ul li.selected {
+                background: url('https://mepndev.azureedge.net/Images/MEPN/AER_SubMenu_Selection_Partn.png') repeat;
+                /*background-color: #00ADEF;*/
+                /*padding-bottom: 12px;*/
+            }
+
+            .nav-menu2 ul li.first-link {
+                padding-left: 6%;
+            }
+
+            .nav-menu2 ul li div {
+                /*padding: 18px 0 0 0;*/
+                /*padding: 15.5px 0 16px 0;*/
+                padding: 0;
+            }
+
+            .nav-menu2 ul li a {
+                font-family: 'wf_segoe-ui_normal';
+                font-size: 0.78em;
+                color: #949494;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+
+    .hdrMEPN {
+        font-family: 'wf_segoe-ui_light';
+        font-size: 1.7em;
+        color: #FFFFFF;
+        padding: 4% 0 2% 4%;
+    }
+
+    .hdrAEP {
+        background: #293B49;
+    }
+
+    .hdrAEPstyle {
+        font-family: 'wf_segoe-ui_light';
+        font-size: 1.7em;
+        color: #FFFFFF;
+        padding: 2% 0 2% 9%;
+    }
+
+    .toggle-menu {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width : 840px) and (max-width: 1400px) {
+
+    .nav-menu1 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 0.8em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .nav-menu2 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 0.8em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .onenotelogo {
+        padding-top: 4%;
+    }
+}
+
+@media only screen and (min-device-width : 1500px) and (max-width: 2000px) {
+    .nav-menu2 ul li {
+        display: block;
+        padding: 0% 2%;
+        float: left;
+        /*height: 100%;*/
+    }
+
+    .nav-menu1 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 1em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .nav-menu2 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 1em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .hdrAEP {
+        background: #293B49;
+    }
+
+    .onenotelogo {
+        padding-top: 3%;
+    }
+}
+/*added end by v-prasr for MEPN ReleaseV3.3*/
