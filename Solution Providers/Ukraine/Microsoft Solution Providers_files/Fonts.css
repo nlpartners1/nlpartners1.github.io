@@ -1,0 +1,390 @@
+/*--------------------- Custom Font Declarations For Segoe MVR MDL2 Assets-------------------*/
+@font-face {
+    font-family: 'SegMVR2';
+    src: url('Fonts/SegMVR2.1.27.ttf') format('truetype'), url('Fonts/SegMVR2.1.27.woff') format('woff');
+}
+/*--------------------- Segoe MVR MDL2 Assets Icons -------------------*/
+
+.icon-win-ChevronDown:before {
+    content: "\E70D";
+    font-size: 6pt;
+    margin-left: 5px;
+    color: black;
+}
+
+.icon-win-ChevronUp:before {
+    content: "\E70E";
+    font-size: 6pt;
+    margin-left: 5px;
+    color: black;
+}
+
+/*--------------------- Custom Font Declarations For Store MDL2 Assets-------------------*/
+@font-face {
+    font-family: 'StorMDL2';
+    src: url('Fonts/StorMDL2.1.27.ttf') format('truetype'), url('Fonts/StorMDL2.1.27.woff') format('woff');
+}
+
+/*--------------------- SStore MDL2 Assets Icons -------------------*/
+.icon-win-EmojiNeutral:before {
+    content: "\EA87";
+    font-size: 20pt;
+}
+
+/*--------------------- Custom Font Declarations For Segoe Segoe MDL2 Assets-------------------*/
+@font-face {
+    font-family: ' ';
+    src: url('Fonts/SegMDL2.1.28.ttf') format('truetype'), url('Fonts/SegMDL2.1.28.woff') format('woff');
+}
+
+.icon-win-BackLegacy:before {
+    content: "\E72B";
+    margin-right: 5px;
+}
+
+.icon-win-StarFull:before {
+    content: "\E082";
+    margin-right: 5px;
+    color: #FDB813;
+}
+
+.icon-win-StarEmpty:before {
+    content: "\E224";
+    margin-right: 5px;
+    color: #808080;
+}
+
+.icon-win-BackLegacyRtl:before {
+    content: "\E72A";
+    margin-left: 5px;
+}
+
+.icon-win-ContactPresenceLegacy:before {
+    content: "\E181";
+    font-size: 24pt;
+}
+
+.icon-win-Contact2Legacy:before {
+    content: "\E187";
+    font-size: 24pt;
+}
+
+.icon-win-Download:before {
+    content: "\E118";
+    font-size: 24pt;
+}
+
+.icon-win-People:before {
+    content: "\E11A";
+    font-size: 24pt;
+}
+
+.icon-win-Work:before {
+    content: "\E821";
+    font-size: 24pt;
+}
+/*--------------------- Custom Font Declarations For Xbox MDL2 Assets-------------------*/
+@font-face {
+    font-family: 'SegXbox2Sym';
+    src: url('Fonts/SegXbox2Sym.1.21.ttf') format('truetype'), url('Fonts/SegXbox2Sym.1.21.woff') format('woff');
+}
+
+.icon-win-ProfileSearch:before {
+    content: "\E484";
+    font-size: 24pt;
+}
+
+.icon-win-LinkLegacy:before {
+    content: "\E71B";
+    font-size: 24pt;
+}
+
+/*------------------------Progress Bar--------------------------------------*/
+/*TODO: Got code from Sindhia and need to update once WebCore people added styles for Progress Bar*/
+@font-face {
+    font-family: 'ring';
+    src: url('Fonts/ring.eot') format('embedded-opentype'), url('Fonts/ring.woff') format('woff'), url('Fonts/ring.ttf') format('truetype');
+}
+
+.reseller-progress-bar {
+    position: relative;
+    left: 20px;
+    right: 20px;
+    bottom: 15px;
+    display: inline-block;
+}
+
+.section .reseller-progress-bar {
+    bottom: 8px !important;
+}
+
+.reseller-progress-bar .ring {
+    height: 0px !important;
+}
+
+.rpe-progress.reseller-progress-bar {
+    bottom: 12px !important;
+
+}
+
+html[dir=rtl] .rpe-progress.reseller-progress-bar {
+    bottom: 12px !important;
+    right: -20px;
+    left: 20px;
+}
+
+.ring .indeterminate-ring {
+    animation-direction: normal;
+}
+
+.reseller-progress-bar-background {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 9999;
+    background-color: #FFF;
+}
+
+/*--------------------- Custom Font Declarations For Segoe UI Assets-------------------*/
+@font-face {
+    font-family: 'WinJS40';
+    src: url('Fonts/WinJS40Symbols.1.05.ttf') format('truetype'), url('Fonts/WinJS40Symbols.1.05.woff') format('woff');
+}
+
+/*--------------------- Segoe UI Assets Icons -------------------*/
+.icon-win-Copy:before {
+    content: "\E16F";
+}
+
+.icon-win-SettingsLegacy:before {
+    content: "\E115";
+    font-size: 24pt;
+}
+
+.icon-win-OnlineStar:before {
+    content: "\E1CE";
+    font-size: 24pt;
+}
+
+.icon-win-FavoriteStarFill:before {
+    content: "\E735";
+    font-size: 24pt;
+}
+
+
+/*--------------------- Membership MDL2 Assets Icons -------------------*/
+.win-icon-Clear {
+    margin: 5px;
+    float: right;
+    font-family: "Membership MDL2 Assets";
+    font-size: 10px !important;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    display: inline-block;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*--------------------- Custom Font Declarations For Dev Center MDL2 Assets-------------------*/
+@font-face {
+    font-family: 'DevCMDL2';
+    src: url('Fonts/DevCMDL2.ttf') format('truetype'), url('Fonts/DevCMDL2.woff') format('woff');
+}
+/*--------------------- Dev Center MDL2 Assets Icons -------------------*/
+
+.icon-win-Ribbon:before {
+    content: "\E9D1";
+    font-size: 24pt;
+}
+
+.icon-win-Telemarketer:before {
+    content: "\E7B9";
+    font-size: 24pt;
+}
+
+.icon-win-Message:before {
+    content: "\E8BD";
+    font-size: 24pt;
+}
+
+.icon-win-StarburstSuggested:before {
+    content: "\F188";
+    font-size: 24pt;
+}
+
+.icon-win-StarburstSuggested-small:before {
+    content: "\F188";
+    font-size: 12pt;
+}
+.icon-win-search:before {
+    content: "\E721";
+    font-size: 24pt;
+}
+
+.icon-win-country:before {
+    content: "\E909";
+    font-size: 24pt;
+}
+
+.icon-win-location:before {
+    content: "\E707";
+    font-size: 24pt;
+}
+
+.icon-win-organization:before {
+    content: "\E716";
+    font-size: 24pt;
+}
+.icon-win-plus:before {
+    content: "\E710";
+    font-size: 24pt;
+}
+
+.icon-win-Gold-Ribbon-small:before {
+    content: "\F345";
+    font-size: 12pt;
+    color: #D47500;
+}
+
+.icon-win-Silver-Ribbon-small:before {
+    content: "\E9D1";
+    font-size: 12pt;
+    color: #777777;
+}
+
+
+html[dir=ltr] .icon-win-ChevronRight:after {
+    content: "\E76C";
+    font-size: 10px;
+}
+
+html[dir=rtl] .icon-win-ChevronRight:after {
+    content: "\E76B";
+    font-size: 10px;
+}
+
+.icon-win-Add:after {
+    content: "\E710";
+    font-size: 10px;
+}
+
+.icon-win-CheckMark:after {
+    content: "\E73E";
+    font-size: 10px;
+}
+
+.icon-win-errorSolid:after {
+    content: "\EB90";
+    font-size: 24px;
+    color: gray;
+}
+
+.icon-win-completedSolid:after {
+    content: "\EC61";
+    font-size: 24px;
+    color: green;
+}
+
+.icon-win-completedSolidGray:after {
+    content: "\EC61";
+    font-size: 24px;
+    color: gray;
+}
+
+.icon-win-chat:after {
+    content: "\E901";
+    font-size: 24px;
+    color: #0078d7;
+}
+
+.icon-win-clock:after {
+    content: "\E823";
+    font-size: 24px;
+    color: #0078d7;
+}
+
+.icon-win-completed:after {
+    content: "\E930";
+    font-size: 24px;
+    color: #0078d7;
+}
+
+.icon-win-check-without-circle:after {
+    content: "\E73E";
+    font-size: 24px;
+    color: #0078d7;
+}
+
+.icon-win-chat-icon:after {
+    content: "\E901";
+    color: #0078d7;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.icon-win-clock-icon:after {
+    content: "\E823";
+    color: #0078d7;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.icon-win-completed-icon:after {
+    content: "\E930";
+    color: green;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.icon-win-error-icon:after {
+    content: "\EA39";
+    color: gray;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.icon-win-completedSolid-icon:after {
+    content: "\EC61";
+    color: gray;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}

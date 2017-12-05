@@ -1,0 +1,93 @@
+.segoe-icon {
+    font-family: 'SegMVR2';
+}
+
+.store-icon {
+    font-family: 'StorMDL2';
+}
+
+.dev-icon {
+    font-family: 'DevCMDL2';
+}
+
+.segoemdl2-icon {
+    font-family: 'SegMDL2';
+}
+
+.segxboxmdl2-icon {
+    font-family: 'SegXbox2Sym';
+}
+
+.winjs40-icon {
+    font-family: 'WinJS40';
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#ui-datepicker-div {
+    display: none;
+}
+.c-universal-footer {
+    margin-top: 0px !important
+}
+.modal-backdrop {
+    background-color: #fff !important;
+    opacity: 0.6 !important;
+}
+
+html[dir=rtl] .modal .btn {
+    width: calc(50% - 4px) !important;
+}
+
+.padding-top25 {
+    padding-top: 25px !important;
+}
+
+.padding-top40 {
+    padding-top: 40px !important;
+}
+
+.padding-top45 {
+    padding-top: 45px !important;
+}
+
+.padding10 {
+    padding: 10px !important;
+}
+
+.padding-bottom20 {
+    padding-bottom: 20px !important;
+}
+
+.padding-bottom30 {
+    padding-bottom: 30px !important;
+}
+
+.padding-bottom10 {
+    padding-bottom: 10px !important;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.gray-background {
+    background-color: #f9f9f9;
+}
+.darkgray-background {
+    background-color: #e3e3e3;
+}
+
+.c-uhff {
+    margin-top: 0px !important;
+}
