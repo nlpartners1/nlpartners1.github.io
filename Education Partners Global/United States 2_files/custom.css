@@ -1,0 +1,2240 @@
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-wrapper {
+    /*width: 80%;*/
+    width: 95%;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 110%;
+    /*max-width: 227px;*/
+    width: auto;
+    height: auto;
+}
+
+.homebtnmob {
+    display: none;
+    /*float: right;*/
+}
+
+.homebtndskp {
+    display: block;
+}
+
+/*.nav-menu ul li
+{
+    display: inline;   
+    padding: 2%;
+}
+
+.nav-menu1 ul li
+{
+    display: inline;
+    padding: 2%;
+}*/
+
+.menuImg {
+    width: auto;
+    height: auto;
+}
+
+.carousel {
+    width: 100%;
+}
+
+    .carousel img {
+        width: 95% !important;
+    }
+
+.borderbottom {
+    border: 0px none #717171;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #717171;
+}
+
+
+.blue {
+    background: #1FAEFF;
+}
+
+.teal {
+    background: #00D8CC;
+}
+
+.green {
+    background: #91D100;
+}
+
+.light-gray {
+    background: #F4F4F4;
+}
+
+.gray {
+    background: #4B4B4B;
+    border-top: 5px solid #1FAEFF;
+}
+
+.img-icon {
+    max-width: 33px !important;
+}
+
+.footerPosition {
+    /*width: inherit;*/
+    bottom: 0px;
+    /*position: absolute;*/
+    max-width: 100%;
+}
+
+
+
+.footer ul {
+    padding-left: 0;
+}
+
+    .footer ul li {
+        display: inline;
+        padding-right: 2%;
+    }
+
+.footer table {
+    margin-right: 2%;
+    float: right;
+}
+
+    .footer table td {
+        /*font-size: 70%;*/
+    }
+
+        .footer table td img {
+            max-width: 175px;
+        }
+
+
+
+.btn {
+    background: #001E4E;
+    color: white;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    margin-left: 30%;
+    padding: 5px;
+}
+
+.btn-submit {
+    background: rgb(0,138,0);
+    color: white;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    margin-left: 30%;
+    padding: 5px;
+}
+
+.btn-inactive {
+    background: rgb(170,170,170);
+    color: black;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    margin-left: 30%;
+    padding: 5px;
+}
+
+.touchAction {
+    -ms-touch-action: double-tap-zoom;
+    touch-action: double-tap-zoom;
+}
+
+.contentZoom {
+    -ms-content-zooming: zoom;
+    content-zooming: zoom;
+}
+
+table {
+}
+
+select {
+    width: 100%;
+    /*border-color: #909094;*/
+    border: 1px solid #dbdbdb;
+    /* code added start by v-vigohi for accessibility */
+    /*color: #909094;*/
+    color: #505050;
+    /* code added end by v-vigohi for accessibility */
+    padding: 5px;
+}
+
+.input-controls {
+    height: 20px;
+    border-color: #909094;
+    color: #909094;
+    padding: 5px;
+}
+
+.bg-blue {
+    background: rgb(242,249,255);
+}
+
+.text-aqua {
+    color: rgb(31,174,255);
+}
+
+    .text-aqua h2 {
+        font-family: wf_segoe-ui_light;
+        font-size: 1.75em;
+    }
+
+
+.hideInMobile {
+    display: block;
+}
+
+.hideInMobileQtnNo {
+    display: block;
+}
+
+/**master page start**/
+.signintext {
+    font-family: 'wf_segoe-ui_normal';
+    font-size: 0.8em;
+    color: #FFFFFF;
+    white-space: nowrap;
+    -ms-hyphens: none;
+}
+
+    .signintext span {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 12px;
+        color: #949494;
+    }
+
+#divUserContent span {
+    font-family: 'wf_segoe-ui_normal';
+    font-size: 14px;
+    color: #949494;
+}
+
+
+.signinpositionstyle {
+    float: right;
+}
+
+
+.nametext {
+    font-family: 'wf_segoe-ui_normal';
+    font-size: 1.1em;
+    color: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.aermasterlinkbuttonstyle {
+    font-family: 'wf_segoe-ui_normal';
+    /*font-size: 14px;*/
+    font-size: .9em;
+    /* code added start by v-vigohi for accessibility */
+    /*color: #20AFFE;*/
+    color: #2776ba;
+    /* code added end by v-vigohi for accessibility */
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: right;
+    font-style: normal;
+    cursor: pointer;
+}
+
+
+.detailsseperator {
+    /*Changed to fix V3.3 issues - starts*/
+    margin-left: 2%;
+    /*Changed to fix V3.3 issues - ends*/
+    margin-right: 2%;
+    border-left: 1px solid #ababab;
+    margin-top: 3px;
+    width: 1px;
+    /*height: 3.2em;*/
+    float: left;
+}
+
+.hdrdetailsseperator {
+    margin-left: 1%;
+    margin-right: 3%;
+    border-left: 1px solid #ababab;
+    margin-top: 8px;
+    width: 1px;
+    float: left;
+    opacity: 0.2;
+}
+
+.authenticatedPanel {
+    float: right;
+    margin-right: 10%; /*2*/
+}
+
+.aerdettext {
+    font-family: 'wf_segoe-ui_normal';
+    font-size: 0.8em;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.loginInfo {
+    line-height: normal;
+    margin-right: 5%;
+}
+
+.headerdiv {
+    height: 80px;
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.footerdiv {
+    padding: 0 8% 0 8%;
+    width: 100%;
+    position: relative;
+    top: 158px;
+    font-family: 'wf_segoe-ui_normal';
+    color: #505050;
+    height: 100px;
+    /*border-top: 5px solid #1FAEFF;*/
+    background-color: #D2D2D2;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.footerlinks {
+    font-family: 'wf_segoe-ui_normal';
+    /*font-size: 14px;*/
+    font-size: .75em;
+    text-decoration: none;
+    color: #505050;
+    padding-right: 20px;
+}
+
+.footerlinkseperatordiv {
+    margin-left: 10px;
+    border-left: 1px solid #1FAEFF;
+    margin-top: 2px;
+    width: 1px;
+    height: 15px;
+    float: left;
+    margin-right: 10px;
+}
+
+.copyrights {
+    /*font-size: 12px;*/
+    font-size: .75em;
+    font-family: 'wf_segoe-ui_normal';
+    color: #505050;
+    float: right;
+    margin-right: 13%;
+}
+
+
+.menulinkswidth {
+    width: 140px;
+}
+
+.aerimage {
+    width: 100%;
+}
+
+.menulinkactive {
+    font-family: 'wf_SegoeUI', 'wf_segoe-ui_normal', 'Segoe', 'Segoe WP';
+    /*font-size: 16px;*/
+    font-size: 1em;
+    color: #FFFFFF; /*updated by v-kikann for MEPN*/
+    text-decoration: none;
+}
+
+.menulinksdiv {
+    float: left;
+    margin-left: 2%;
+}
+
+.menulinksnotselected {
+    font-family: 'wf_segoe-ui_normal';
+    font-size: 14px;
+    color: #949494;
+    color: #FFFFFF;
+    text-decoration: none;
+    /*background-color: white;*/
+}
+
+.commmonStyle {
+    font-family: 'wf_segoe-ui_normal';
+    color: gray;
+}
+
+.changePointer {
+    cursor: pointer;
+}
+
+    .changePointer :hover {
+        cursor: pointer;
+    }
+
+        .changePointer :hover :after {
+            cursor: default;
+        }
+
+        .changePointer:hover :before {
+            cursor: pointer;
+        }
+
+
+.lnkLanguage {
+    color: #717171;
+    text-decoration: none;
+    font-family: wf_segoe-ui_normal;
+    /*font-size: 14px;*/
+    font-size: .9em;
+}
+
+.language {
+    color: #1faeff;
+    text-decoration: underline;
+    font-family: wf_segoe-ui_normal;
+    /*font-size: 14px;*/
+    font-size: .9em;
+}
+/**master page end**/
+
+
+/**aer style sheet start**/
+.showLanguageDiv {
+    position: absolute;
+    z-index: 999;
+    /*top: 20px;*/ /*set top value */
+    /*right: 10px;*/ /* set left value */
+    right: 2%;
+    background-color: #EFEFEF;
+    border: 1px solid #dbdbdb;
+}
+
+/**aer style sheet end**/
+
+
+.onclick-menu {
+    position: relative;
+    display: inline-block;
+    background: white;
+}
+
+    .onclick-menu:before {
+        content: "Menu";
+    }
+
+    .onclick-menu:focus {
+        /* clicking on label should toggle the menu */
+        pointer-events: none;
+    }
+
+        .onclick-menu:focus .onclick-menu-content {
+            /*  opacity is 1 in opened state (see below) */
+            opacity: 1;
+            visibility: visible;
+            /* don't let pointer-events affect descendant elements */
+            pointer-events: auto;
+        }
+
+.onclick-menu-content {
+    position: absolute;
+    z-index: 1;
+    background: white;
+    display: inline-block;
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    visibility: hidden;
+    /*transition: visibility 0.5s;*/
+}
+
+.footerLinkWidth {
+    width: auto;
+}
+
+.minHeight {
+}
+
+@media only screen and (max-width: 480px) {
+    /*Added by v-dimit for Feb - 2nd week release - starts*/
+    #PoCProgramDiv1 {
+        display: none;
+    }
+
+    #PoCProgramDiv2 {
+        display: none;
+    }
+
+    #PoCProgramDiv3 {
+        display: none;
+    }
+    /*Added by v-dimit for Feb - 2nd week release - ends*/
+
+    /*Modified by v-dimit for Feb - 4th week release - 142296 - starts*/
+    #PrometheanText {
+        display: none;
+    }
+
+    #OxfordText {
+        display: none;
+    }
+    /*Modified by v-dimit for Feb - 4th week release - 142296 - ends*/
+
+
+    select {
+        width: 100%;
+        /*border-color: #909094;*/
+        border: 1px solid #dbdbdb;
+        color: #909094;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 1px;
+        padding-bottom: 0px;
+    }
+
+    .minHeight {
+        height: 30px;
+        padding-top: 15px;
+    }
+
+    .hrClassVrt {
+        border: 0px solid #dbdbdb;
+        border-top: 1px solid #dbdbdb;
+        max-height: 2px;
+        height: 2px;
+        margin: 5%;
+        width: 98%;
+        text-align: left;
+        margin-right: 2%;
+    }
+
+    .detailsseperator {
+        margin-left: 2%;
+        margin-right: 2%;
+        border-left: 1px solid #ababab;
+        margin-top: 3px;
+        width: 1px;
+        height: 6.8em;
+        float: left;
+    }
+
+    .authenticatedPanel {
+        float: left;
+        margin-left: 2%;
+        margin-right: 0%;
+    }
+
+    .footerlinkseperatordiv {
+        display: none;
+    }
+
+    .footerLinkWidth {
+        width: 100%;
+    }
+
+    footer table {
+        margin-left: 2%;
+        float: left;
+    }
+
+    .showLanguageDiv {
+        position: absolute;
+        z-index: 999;
+        /*top: 20px;*/ /*set top value */
+        /*right: 10px;*/ /* set left value */
+        right: auto;
+        background-color: #EFEFEF;
+        border: 1px solid #dbdbdb;
+    }
+
+    .hideInMobile {
+        display: none;
+    }
+
+    .hideInMobileQtnNo {
+        display: none !important;
+    }
+
+    .loginInfo {
+        float: left;
+        text-align: left;
+    }
+
+    .aermasterlinkbuttonstyle {
+        font-family: 'wf_segoe-ui_normal';
+        /*font-size: 14px;*/
+        font-size: .9em;
+        color: #20AFFE;
+        white-space: nowrap;
+        text-decoration: none;
+        text-align: right;
+        font-style: normal;
+        cursor: pointer;
+    }
+
+    .mrktResImg {
+        width: 80%; /*width: 90%;*/
+    }
+}
+
+/*css class for localization changes start*/
+
+AER_UI_AcademicLicensingContact_Instructions a {
+    font-family: SegoeUI;
+    font-size: 1em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_Administration_Error_NotAuthorised a {
+    font-family: SegoeUI;
+    font-size: 1em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_Distributor_AERTool_Link a {
+    font-family: SegoeUI;
+    font-size: 1em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_Distributor_link a {
+    font-family: SegoeUI;
+    font-size: Aem;
+    text-decoration: notext-decoration:none;
+}
+
+AER_UI_FAQ_Answer12 a {
+    font-family: SegoeUI;
+    font-size: 0.9em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_FAQ_Answer13 a {
+    font-family: SegoeUI;
+    font-size: 0.9em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_FAQ_Answer2_Label a {
+    font-family: SegoeUI;
+    font-size: 0.9em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_FAQ_Answer20 a {
+    font-family: SegoeUI;
+    font-size: 0.9em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_FAQ_Answer21 a {
+    font-family: SegoeUI;
+    font-size: 0.9em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_FAQ_Answer21 ol {
+    list-style-type: inherit !important;
+}
+
+AER_UI_FAQ_Answer6 a {
+    font-family: SegoeUI;
+    font-size: 0.9em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_Main_Education_PartnerNw_Intro a {
+    font-family: wf_segoe-ui_normal;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_Profile_Certification_About_To_Expire_First_Part a {
+    font-family: wf_segoe-ui_normal;
+    font-size: 1em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_Profile_EmailTemplate_PleaseDownload a {
+    font-family: wf_segoe-ui_normal;
+    font-size: 1em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_Profile_EmailTemplate_Unmonitored_SucessFullReg a {
+    font-family: wf_segoe-ui_normal;
+    font-size: 1em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+AER_UI_Training_Intro1 a {
+    font-family: wf_segoe-ui_normal;
+    font-size: 0.9em;
+    color: #1FAEFF;
+    text-decoration: none;
+}
+
+/*css class for localization changes end*/
+
+
+/*added by v-kikann for MEPN - starts*/
+
+
+#contentPage {
+    position: relative;
+    top: 119px;
+    /*padding: 0 2% 0 2%;*/
+}
+
+
+#submenu li.active a {
+    border-top: 3px solid #333;
+    color: #333;
+}
+
+#maincontent {
+    margin: 0;
+    /*padding: 0 2% 0 2%;*/
+}
+
+.headerbg {
+    background-color: #505050;
+    color: #FFFFFF;
+    height: 62px;
+}
+
+.editcontentbtn {
+    float: right;
+    display: none; /*added for testing*/
+}
+
+.editcontent {
+    position: absolute;
+    /*top:10px;*/
+    bottom: 0;
+    left: 94%;
+}
+
+.editimg {
+    position: absolute;
+    /*top:10px;*/
+    bottom: 0;
+    left: 30%;
+}
+
+.parallax {
+    width: 96%;
+    position: fixed;
+    /*top: 210px;*/
+}
+
+.fixedHeader {
+    position: fixed;
+    z-index: 1000000;
+    width: 100%;
+    top: 0;
+}
+
+.contentpadding {
+    text-align: center;
+    /*background-color: #FFFFFF;*/
+    /*margin: 5% 1% 5% 0;*/
+    padding: 0 8% 0 8%;
+    /*border: 1px solid #000000;*/
+    /*position: relative;*/
+    /*z-index: 10000;*/
+}
+
+.sectionHeader {
+    font-size: 38px;
+    text-align: left;
+    color: #505050;
+    font-family: "wf_segoe-ui_light";
+}
+
+.headertext {
+    font-size: 38px;
+    text-align: left;
+    color: #505050;
+    font-family: "wf_segoe-ui_normal";
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.sectionHeader p {
+}
+
+#divfixedbg {
+    font-size: 50px;
+    text-align: center;
+    /*background-color: lightslategray;*/
+    /*padding: 5% 1% 5% 0;*/
+    /*border: 1px solid #000000;*/
+}
+
+.prev {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.next {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.divhomeSubmenu {
+    position: relative;
+    z-index: 10000;
+}
+
+.parallax-scoll-nav {
+    display: block;
+    position: fixed;
+    top: 250px;
+    z-index: 9999999;
+}
+
+    .parallax-scoll-nav ul > li {
+        display: block;
+        float: right;
+        list-style: none;
+        clear: both;
+        margin-top: 7px;
+        /*margin-right: 8px;*/
+        transition: all ease-in-out .3s;
+    }
+
+        .parallax-scoll-nav ul > li a div {
+            width: 16px;
+            height: 22px;
+            background: url('https://mepnprod.azureedge.net/Images/MEPN/Paralax-Pager.png') no-repeat right center;
+            position: relative;
+            cursor: pointer;
+            transition: all ease-in-out .3s;
+        }
+
+        .parallax-scoll-nav ul > li.selected a div {
+            background: url('https://mepnprod.azureedge.net/Images/MEPN/Paralax-Pager-Selected.png') no-repeat right center;
+        }
+
+        .parallax-scoll-nav ul > li span {
+            display: none;
+        }
+
+    .parallax-scoll-nav .cont {
+        /*float: right;*/
+        margin-right: 5%;
+    }
+
+
+
+
+    .parallax-scoll-nav ul > li:hover a div {
+        width: auto;
+        /*background-color: #1570a6;*/
+        background-color: orangered;
+        background-image: none;
+        border-radius: 10px;
+        right: -3px;
+    }
+
+    .parallax-scoll-nav div ul > li a:focus div {
+        width: auto;
+        /*background-color: #1570a6;*/
+        background-color: orangered;
+        background-image: none;
+        border-radius: 10px;
+        right: -3px;
+    }
+
+    .parallax-scoll-nav > ul > li:hover a:after {
+        display: block;
+        float: right;
+        content: "";
+        margin-right: 18px;
+        margin-top: 6px;
+        border: none;
+        background-color: #fff;
+        border-radius: 18px;
+        min-width: 26px;
+        min-height: 26px;
+    }
+
+    .parallax-scoll-nav ul > li:hover span {
+        position: relative;
+        right: -1px;
+        font-size: 14px;
+        color: #fff;
+        display: inline-block;
+        height: 22px;
+        padding: 0 24px 0 10px;
+        line-height: 22px;
+        background: url(/en/SiteCollectionImages/rwd/scroll-spy-nav-circle-white.png) no-repeat right center;
+    }
+
+        .parallax-scoll-nav div ul > li a:focus div span {
+        position: relative;
+        right: -1px;
+        font-size: 14px;
+        color: #fff;
+        display: inline-block;
+        height: 22px;
+        padding: 0 24px 0 10px;
+        line-height: 22px;
+        background: url(/en/SiteCollectionImages/rwd/scroll-spy-nav-circle-white.png) no-repeat right center;
+    }
+
+
+.contentfont {
+    font-family: 'wf_segoe-ui_light';
+    font-size: 20px;
+    padding: 4%;
+    color: #505050;
+}
+
+#divHeader .col {
+    /*margin-bottom: 0.5%;
+    margin-top: 0.5%;*/
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.logoText {
+    font-family: 'wf_segoe-ui_normal';
+    font-size: 0.75em;
+    color: #FFFFFF;
+    white-space: normal;
+    -ms-hyphens: none;
+    float: left;
+    /*width: 40%;*/
+    width: 37%;
+    padding: 5% 3% 0 5%;
+}
+
+    .logoText h4 {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-bottom: 0;
+    }
+
+    .logoText h6 {
+        color: #FFFFFF;
+        opacity: 0.7;
+        font-size: 10px;
+    }
+
+.headerli {
+    padding: 2%;
+}
+
+#bannerDsktp {
+    display: block;
+}
+
+#bannermob {
+    display: none;
+}
+
+.bannerText {
+    color: #FFFFFF;
+    max-width: 30%;
+    font-size: 0.3em;
+    text-align: left;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+
+.bannerText1 {
+    font-family: 'wf_segoe-ui_light';
+    padding: 5%;
+    /* code added start by v-vigohi for accessibility */
+    /*background-color: #EE5124;*/
+    background-color: #CC2900;
+    /* code added end by v-vigohi for accessibility */
+    font-size: 17px;
+}
+
+.bannerText2 {
+    font-family: 'wf_segoe-ui_light';
+    font-size: 17px;
+    padding: 5%;
+    background-color: #000000;
+    opacity: 0.75;
+}
+
+.bannerText2 {
+    padding:3% !important;
+}
+
+.bannerLink {
+    background-color: #EE5124;
+    float: right;
+    max-width: 150px;
+    padding: 5%;
+}
+
+    .bannerLink a {
+        color: #FFFFFF;
+    }
+
+.bannerjoinlink {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'wf_segoe-ui_normal';
+}
+
+.bannerimgJoin {
+    float: right;
+    position: relative;
+    top: -19px;
+    right: -20px;
+    /*background-color: #68217a;
+    width: 30px;
+    float: right;
+    height: 54px;
+    padding: 1% 2% 1% 2%;*/
+}
+
+.bannerbgimg {
+    /*height: 550px;*/
+    height: 400px; /*code changed by v-prasr ReleaseV3.3*/
+    background-repeat: no-repeat;
+    /*background-size: 100%;*/
+    background-size: cover;
+    background-position: right;
+    /* code added start by v-vigohi for accessibility */
+    -ms-high-contrast-adjust: none;
+    /* code added end by v-vigohi for accessibility */
+}
+
+.Homebannerimg {
+    background-image: url(https://mepnprod.azureedge.net/Images/MEPN/Paralax-Banner.png);
+    /* code added start by v-vigohi for accessibility */
+    -ms-high-contrast-adjust: none;
+    /* code added end by v-vigohi for accessibility */
+}
+
+.linkstyle {
+    /*vertical-align:top;*/
+    color: #68217a;
+    font-size: 16px;
+    font-family: 'wf_segoe-ui_normal';
+}
+
+    .linkstyle img {
+        width: 16px;
+        vertical-align: middle;
+        padding-bottom: 2px;
+    }
+
+
+.sliderContent {
+    font-family: 'wf_segoe-ui_normal';
+    font-style: italic;
+    font-size: 18px;
+    color: #505050;
+}
+
+.scStory {
+    text-align: center;
+    /*background-color: #FFFFFF;*/
+    /*margin: 5% 1% 5% 0;*/
+    /*padding: 0 8% 0 8%;*/
+    /*border: 1px solid #000000;*/
+    /*position: relative;*/
+    /*z-index: 10000;*/
+    background-color: #ff8c00;
+}
+
+.prodheader {
+    padding-top: 20px;
+    font-family: 'wf_segoe-ui_light';
+    font-size: 18px;
+    color: #505050;
+}
+
+.Prodcontent {
+    font-family: 'wf_segoe-ui_normal';
+    /*font-size: 14px;*/
+    font-size: 18px;
+    color: #505050;
+}
+
+#prodSoln .three-cols {
+    margin: 0 0.5% 0 0.5%;
+}
+
+
+.prodslnimg {
+    width: 75%;
+}
+
+.join {
+    padding: 0 8% 0 8%;
+    background-color: #68217a;
+    float: left;
+    /*height:600px;*/
+}
+
+#join .sectionHeader {
+    /*background-color:#68217a;*/
+    color: #FFFFFF;
+}
+
+.joincontent {
+    font-family: 'wf_segoe-ui_normal';
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-bottom: 2%;
+}
+
+.AER {
+    padding: 0 8% 0 8%;
+    background-color: #00188f;
+    /*min-height: 400px;*/
+    float: left;
+}
+
+.jointext1 {
+    font-family: 'wf_segoe-ui_normal';
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100px;
+    left: 225px;
+    top: 115px;
+    position: relative;
+}
+
+    .jointext1 p {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 18px;
+    }
+
+.jointext2 {
+    font-family: 'wf_segoe-ui_normal';
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100px;
+    left: 390px;
+    top: 65px;
+    position: relative;
+}
+
+    .jointext2 p {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 18px;
+    }
+
+.jointext3 {
+    font-family: 'wf_segoe-ui_light';
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 150px;
+    left: 540px;
+    top: 0px;
+    position: relative;
+}
+
+    .jointext3 a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 24px;
+        color: #FFFFFF;
+        /*text-align: center;
+    width: 100px;
+    left: 565px;
+    top: 0px;
+    position: relative;*/
+    }
+
+.joinbgimg {
+    background-image: url(https://mepnprod.azureedge.net/Images/MEPN/paralax_homepage_Network.png);
+    background-repeat: no-repeat;
+    min-height: 350px;
+}
+
+#join .headertext {
+    color: #FFFFFF;
+}
+
+.evtContenthdr {
+    font-family: 'wf_segoe-ui_light';
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px 5% 0 5%;
+    /*padding-top:20px;*/
+}
+
+.evtContentdes {
+    height: 170px;
+    font-family: 'wf_segoe-ui_normal';
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 18px 5% 0 5%;
+    /*padding-top:18px;
+     padding-bottom:25px;*/
+}
+
+.evtContentbg {
+    background-color: #68217a;
+    float: left;
+    margin-top: 0;
+    height: 250px;
+}
+
+.registerbtn {
+    background-color: #EE5124;
+    border-radius: 15px;
+    padding: 7px 15px 7px 15px;
+    font-size: 14px;
+    font-family: 'wf_segoe-ui_normal';
+    color: #FFFFFF;
+}
+
+.learnlink {
+    font-size: 16px;
+    font-family: 'wf_segoe-ui_normal';
+    color: #FFFFFF;
+}
+
+    .learnlink img {
+        width: 16px;
+        vertical-align: middle;
+        padding-bottom: 2px;
+    }
+
+.scStories {
+    float: left;
+    padding: 0 8% 5% 8%;
+    background-color: #FF8C00;
+}
+
+    .scStories p {
+        padding-top: 33px;
+        /* code added start by v-vigohi for accessibility */
+        /*color: #FFFFFF;*/
+        color: #242424;
+        /* code added end by v-vigohi for accessibility */
+    }
+
+.scStoriesContent {
+    /*background-color: #E36500;*/
+    padding: 1% 4% 4% 4%;
+    font-family: 'wf_segoe-ui_light';
+    font-size: 16px;
+    /* code added start by v-vigohi for accessibility */
+    /*color: #FFFFFF;*/
+    color: #242424;
+    /* code added end by v-vigohi for accessibility */
+}
+
+    .scStoriesContent span {
+        font-size: 20px;
+    }
+
+.ITAcademy {
+    padding: 0 30% 0 8%;
+    background: url('https://mepnprod.azureedge.net/Images/MEPN/paralax_homepage_v2.png') no-repeat right center;
+    float: left;
+    min-height: 396px;
+    background-size: 100% 100%;
+}
+
+    .ITAcademy p {
+        padding-top: 50px;
+        color: #FFFFFF;
+    }
+
+    .ITAcademy h3 {
+        font-size: 16px;
+        font-family: 'wf_segoe-ui_light';
+        color: #FFFFFF;
+        font-weight: normal;
+    }
+
+    .ITAcademy h4 {
+        padding-top: 20px;
+        font-size: 20px;
+        font-family: 'wf_segoe-ui_light';
+        color: #FFFFFF;
+        font-weight: normal;
+    }
+
+    .ITAcademy a {
+        font-size: 20px;
+        font-family: 'wf_segoe-ui_light';
+        color: #FFFFFF;
+    }
+
+.fdbkbtn {
+    font-size: 14px;
+    background-color: #00BCF2;
+    border: 1px solid #00BCF2;
+    padding: 1% 2% 1% 2%;
+    font-family: 'wf_segoe-ui_normal';
+    color: #FFFFFF;
+}
+
+.events {
+    float: left;
+}
+
+    .events img {
+        /*width: 50%;*/
+    }
+
+.footer h4 {
+    padding: 1%;
+    font-size: 14px;
+    font-family: 'wf_segoe-ui_light';
+}
+
+.footer h5 {
+    padding: 1%;
+    font-size: 12px;
+    font-family: 'wf_segoe-ui_light';
+}
+
+.footer {
+    width: 84%;
+    position: relative;
+    margin-top: 126px;
+    padding: 0 8% 0 8%;
+    background-color: #D2D2D2;
+    /*min-height: 400px;*/
+    float: left;
+    font-family: 'wf_segoe-ui_normal';
+    color: #505050;
+}
+
+.footercol1 {
+    float: left;
+    width: 35%;
+}
+
+.footercol2 {
+    float: left;
+    width: 30%;
+}
+
+.footercol3 {
+    float: left;
+    width: 35%;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+.homelink {
+    position: absolute;
+    /*margin-top: -0.2%;*/
+    /*code added start by v-prasr for ReleaseV3.3*/
+    z-index: 1010;
+    /*code added end by v-prasr for ReleaseV3.3*/
+}
+
+.scimg {
+    position: absolute;
+    /*margin-top: 60px;*/
+    padding-left: 2%;
+}
+
+.LTRStyle {
+    left: 0;
+}
+
+#winwithusmobile {
+    display: none;
+}
+
+#winwithusDesktop {
+    display: block;
+}
+
+#pagerDesktop {
+    display: block;
+}
+
+#pagermobile {
+    display: none;
+}
+
+.whyPtnrsliderimage {
+    width: 30%;
+    float: left;
+}
+
+.whyPtnrslidercont {
+    float: right;
+    width: 70%;
+}
+
+.scstoriesvdcont {
+    margin-top: -140px;
+    background-color: #E36500;
+    display: block;
+    float: left;
+}
+
+#prodslnDesktop {
+    display: block;
+}
+
+#prodslnmobile {
+    display: none;
+}
+
+#newsnavDesktop {
+    display: block;
+}
+
+#newsnavmobile {
+    display: none;
+}
+
+.newsslidercont {
+    width: 60%;
+    float: right;
+    font-size: 20px;
+}
+
+.newssliderimage {
+    width: 40%;
+    float: left;
+}
+
+.newsroundedImg {
+    border-radius: 100%;
+    height: 254px;
+    width: 254px;
+}
+
+.newsroundedNavImg {
+    border-radius: 100%;
+    height: 71px;
+    width: 71px;
+}
+
+.headercol1 {
+    /*width: 44%;*/
+    width: 55%;
+    display: block;
+    float: left;
+    /*margin: 1% 0 1% 0;*/
+}
+
+.headercol2 {
+    width: 20%;
+    float: left;
+}
+
+.headercol3 {
+    width: 25%;
+    float: left;
+}
+
+.headercol4 {
+    width: 16%;
+    float: left;
+    text-align: left;
+}
+
+.hdr-col1 {
+    width: 25.87%;
+}
+
+.hdr-col2 {
+    width: 73.62%;
+}
+
+.lnkAERDesktop {
+    display: block;
+}
+
+.lnkAERmob {
+    display: none;
+}
+
+.eventsHeader {
+    padding: 0 5% 2% 5%;
+    font-size: 26px;
+    font-family: 'wf_segoe-ui_light';
+    color: #505050;
+}
+
+.eventsContent {
+    padding: 0 5% 2% 5%;
+    font-size: 16px;
+    font-family: 'wf_segoe-ui_normal';
+    color: #505050;
+}
+
+.eventsGEPHeader {
+    padding: 0 5% 2% 5%;
+    font-size: 26px;
+    font-family: 'wf_segoe-ui_light';
+    color: #FFFFFF;
+}
+
+.eventsGEPContent {
+    padding: 0 5% 2% 5%;
+    font-size: 16px;
+    font-family: 'wf_segoe-ui_normal';
+    color: #FFFFFF;
+}
+
+.fileUpload {
+    width: 95%;
+}
+
+
+.MktContentHeader {
+    font-size: 20px;
+    font-family: 'wf_segoe-ui_light';
+    color: #505050;
+    margin: 0 10% 0 0;
+}
+
+.MktContent {
+    font-size: 14px;
+    font-family: 'wf_segoe-ui_light';
+    color: #505050;
+    margin: 0 10% 0 0;
+    padding-top: 20px;
+}
+
+.cityNextbg {
+    margin-top: 20px;
+    float: left;
+    min-height: 400px;
+    background-size: 100% 100%;
+    /*code added start by v-namj for accessibility at 26/08*/
+   -ms-high-contrast-adjust:none;
+    /*code added start by v-namj for accessibility at 26/08*/
+}
+
+    .cityNextbg p {
+        padding-top: 2%;
+    }
+
+    .cityNextbg a {
+        font-size: 18px;
+        padding-left: 1%;
+    }
+
+.cityNextcontent {
+    font-size: 18px;
+    font-family: 'wf_segoe-ui_light';
+    margin: 4% 5% 0 0;
+    /*padding-top: 20px;*/
+}
+
+    .cityNextcontent p {
+        padding-top: 15px;
+    }
+
+    .cityNextcontent li {
+        padding: 1%;
+       
+    }
+
+.citynxtHeader {
+    font-size: 30px;
+    text-align: left;
+    color: #505050;
+    font-family: "wf_segoe-ui_light";
+    padding-top: 30px;
+    /*padding-bottom: 4%;*/
+}
+/*Modified ruby v-rapeda for Aug 26 28346 release starts*/
+/*.prtrdevice {
+    margin-top: 20px;
+    background-color: #68217a;
+    float: left;
+    color: #FFFFFF;
+}*/
+
+.prtrdevice {
+    margin-top: 20px;
+    /*background-color: #68217a;*/
+    background-color: #f5f5f5;
+    float: left;
+    color: #FFFFFF;
+    /*Modified by v-rapeda for Aug 5 2016 release starts*/
+    width: 100%;
+}
+/*Modified ruby v-rapeda for Aug 26 28346 release ends*/
+    .prtrdevice .headertext {
+        padding-top: 10px;
+        font-size: 38px;
+    }
+
+    .prtrdevice p {
+        color: #FFFFFF;
+        font-size: 24px;
+        /*padding-top:2%;*/
+        padding-bottom: 5%;
+    }
+
+.MarketHeaderText {
+    padding-top: 10px;
+    font-size: 38px;
+    text-align: left;
+    color: #505050;
+    font-family: "wf_segoe-ui_light";
+    padding-bottom: 1%;
+}
+
+.MktContentdesc {
+    font-size: 18px;
+    font-family: 'wf_segoe-ui_light';
+    color: #505050;
+    padding-top: 20px;
+}
+/* Modified by v-barais for Feb 5 release starts*/
+.MktEduTrans {
+    font-size: 18px;
+    font-family: 'wf_segoe-ui_light';
+    color: #505050;
+    text-align: left;
+}
+/* Modified by v-barais for Feb 5 release ends*/
+
+.marketcontentimg {
+}
+
+    .marketcontentimg img {
+        width: 75%;
+    }
+
+.connectBg {
+    background-color: whitesmoke;
+    /*background-color:#FFFFFF;*/
+    color: #505050;
+    padding: 1% 8% 1% 8%;
+}
+
+.connectseperator {
+    margin-left: 5%;
+    margin-right: 2%;
+    border-left: 1px dashed #ababab;
+    height: 6.2em;
+    width: 10px;
+    /*height: 3.2em;*/
+    float: right;
+}
+
+#connectDiv .four-cols {
+    min-width: 300px;
+}
+
+.connectmail {
+    background-color: #FFFFFF;
+    font-size: 12px;
+    padding: 2%;
+    margin: 2% 0 4% 0;
+}
+
+.connectmailicons a {
+    padding: 2%;
+}
+
+.connectmailicons img {
+    padding: 3%;
+}
+
+.evntDecks {
+    /*padding: 0 5% 2% 5%;*/
+    font-size: 24px;
+    font-family: 'wf_segoe-ui_light';
+}
+/*#evntbannermbl
+{
+    display:none;
+    padding:2% 2% 0 2%;
+    color:#ffffff;
+}*/
+.bannerDescDsktp {
+    display: block;
+}
+
+.bannerDescmob {
+    display: none;
+    padding: 2% 2% 0 2%;
+    color: #ffffff;
+}
+/*#evntbannerDsktp
+{
+    display:block;
+}*/
+
+#evntsec2desktp {
+    display: block;
+}
+
+#evntsec2mob {
+    display: none;
+}
+
+#eduempDsktp {
+    display: block;
+}
+
+#eduempmob {
+    display: none;
+}
+
+.mrktResImg {
+    width: 55%; /*width: 90%;*/
+    padding-left: 10%;
+}
+/*#MrktResmob
+{
+    display:none;
+}*/
+#MrktResDsktp {
+    display: none;
+}
+
+.mrktResLeft {
+    float: left;
+    width: 50%;
+}
+
+.mrktResRight {
+    float: right;
+    width: 50%;
+}
+
+.dwnldlink {
+    font-size: 16px;
+    display: inline-block;
+}
+
+    .dwnldlink p {
+        padding: 5% 0 5% 0;
+    }
+
+.mobview {
+    display: none;
+}
+
+.dsktpView {
+    display: block;
+}
+
+.connecthdr {
+    font-family: wf_segoe-ui_light;
+    font-size: 20px;
+    color: #050505;
+    padding-bottom: 2%;
+}
+
+.evntShareLinks {
+    padding: 5% 10% 0 0;
+}
+
+.evntblkbg1 {
+    background-image: url('https://mepnprod.azureedge.net/Images/MEPN/paralax_homepage_v2-offer-image.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 0;
+    margin-right: 2%;
+    height: 200px;
+}
+
+.evntblkbg2 {
+    background-color: #BBD80B;
+    height: 200px;
+}
+
+    .evntblkbg2 img {
+        width: auto;
+    }
+
+.evtOff365Logo {
+    float: right;
+    /*width: 60%;*/
+    width: 80%;
+    padding-top: 70px;
+    height: 100%;
+}
+
+.main-nav {
+    height: 60px;
+}
+
+.navbdrRadius {
+    border-radius: 100px;
+}
+
+.AERsctnPadding {
+    padding: 0 5% 0 5%;
+}
+
+    .AERsctnPadding a {
+        /*color: red;*/
+        color: #FFFFFF;
+        text-decoration: underline;
+    }
+
+.aerLogo {
+    width: 50%;
+}
+
+.hdrlogo {
+    float: left;
+    /*padding: 5% 3% 3% 2%;*/
+    padding: 3% 0% 0% 2%;
+}
+
+.AER .headertext {
+    color: #FFFFFF;
+}
+
+.offlogo {
+    padding: 30px 6% 6% 6%;
+}
+
+.windlogo {
+    /*height: 95%;*/
+    padding: 25px 2% 2% 5%;
+}
+
+.dynslogo {
+    padding: 9px 5% 5% 5%;
+}
+
+.azrlogo {
+    padding: 24px 3% 3% 3%;
+}
+
+.evntsummitLogo {
+    width: 100%;
+}
+
+.evntblkbg2Left {
+    height: 180px;
+    width: 15%;
+    padding: 10px 0 0 5%;
+    float: left;
+}
+
+    .evntblkbg2Left img {
+        width: 70%;
+        height: 100%;
+    }
+
+.evntdwnldmbl {
+    display: none;
+}
+
+.evntdwnlddsktp {
+    display: block;
+}
+
+.evntdwndpadding {
+    padding-bottom: 20px;
+}
+
+.clsroomlogo {
+    width: auto;
+}
+
+.dwnldlinkstyle {
+    color: #68217a;
+    font-size: 13px;
+    font-family: "wf_segoe-ui_normal";
+}
+
+    .dwnldlinkstyle img {
+        width: 16px;
+        vertical-align: middle;
+        padding-bottom: 2px;
+    }
+/*added by v-kikann for MEPN - ends*/
+
+
+
+/*Added by v-dimit for Feb - 2nd week release - starts*/
+
+.pinptQuickvw {
+    margin-top: 2px;
+    float: left;
+    width: 100%;
+}
+
+.pinptExpander {
+    background-image: url('https://mepnprod.azureedge.net/Images/MEPN/GTMPlus.png');
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    vertical-align: top;
+}
+
+.imgtogglePinptQW {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 40px;
+    padding: 18px 20px 7px 20px;
+    color: #505050;
+    font-size: 1.5em;
+}
+
+.contentPinptQW {
+    padding: 7px 20px 7px 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.openPinptQW {
+    cursor: pointer;
+    vertical-align: top;
+    background-color: #eff5f9;
+    padding-right: 25px;
+    background: url('https://mepnprod.azureedge.net/Images/MEPN/GTMMinus.png') 95% 50% no-repeat,url('https://mepnprod.azureedge.net/Images/MEPN/GTMPatternSelected.png') repeat;
+}
+
+.MktPoCContentHeader {
+    font-size: 24px;
+    font-family: "wf_segoe-ui_normal";
+    color: #505050;
+    margin: 0 10% 0 0;
+}
+
+.GTMPattern {
+    background-image: url('https://mepnprod.azureedge.net/Images/MEPN/GTMPaternClose.png');
+    background-repeat: repeat;
+}
+
+.GTMPatternOpen {
+    background-image: url('https://mepnprod.azureedge.net/Images/MEPN/GTMPatternSelected.png');
+    background-repeat: repeat;
+}
+/*Added by v-dimit for Feb - 2nd week release - ends*/
+
+
+/*Modified by v-dimit for Feb - 4th week release - 142296 - starts*/
+
+.pinptQuickvwClassRommVB {
+    margin-top: 2px;
+    float: left;
+    width: 100%;
+}
+
+.pinptExpanderClassRommVB {
+    background-image: url('https://mepnprod.azureedge.net/Images/MEPN/GTMPlus.png');
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    vertical-align: top;
+}
+
+.imgtogglePinptQWClassRommVB {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 40px;
+    padding: 18px 20px 7px 20px;
+    color: #505050;
+    font-size: 1.5em;
+}
+
+.contentPinptQWClassRommVB {
+    padding: 7px 20px 7px 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.openPinptQWClassRommVB {
+    cursor: pointer;
+    vertical-align: top;
+    background-color: #eff5f9;
+    padding-right: 25px;
+    background: url('https://mepnprod.azureedge.net/Images/MEPN/GTMMinus.png') 95% 50% no-repeat,url('https://mepnprod.azureedge.net/Images/MEPN/GTMPatternSelected.png') repeat;
+}
+
+.GTMPatternClassRommVB {
+    background-image: url('https://mepnprod.azureedge.net/Images/MEPN/GTMPaternClose.png');
+    background-repeat: repeat;
+}
+
+ul.leaf {
+    /*list-style-image: url('https://mepnprod.azureedge.net/Images/MEPN/icwmv.gif');*/
+    list-style-image: url('https://mepnprod.azureedge.net/Images/MEPN/Video1.png');
+    line-height: 30px;
+}
+
+.leaf a:hover {
+    text-decoration: underline;
+}
+
+.leaf li:nth-child(odd) {
+    background: rgb(242, 249, 252);
+}
+
+
+.pinptQuickvwTrainTheTrainer {
+    margin-top: 2px;
+    float: left;
+    width: 100%;
+}
+
+.pinptExpanderTrainTheTrainer {
+    background-image: url('https://mepnprod.azureedge.net/Images/MEPN/GTMPlus.png');
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    vertical-align: top;
+}
+
+.imgtogglePinptQWTrainTheTrainer {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 40px;
+    padding: 18px 20px 7px 20px;
+    color: #505050;
+    font-size: 1.5em;
+}
+
+.contentPinptQWTrainTheTrainer {
+    padding: 7px 20px 7px 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.openPinptQWTrainTheTrainer {
+    cursor: pointer;
+    vertical-align: top;
+    background-color: #eff5f9;
+    padding-right: 25px;
+    background: url('https://mepnprod.azureedge.net/Images/MEPN/GTMMinus.png') 95% 50% no-repeat,url('https://mepnprod.azureedge.net/Images/MEPN/GTMPatternSelected.png') repeat;
+}
+
+.GTMPatternTrainTheTrainer {
+    background-image: url('https://mepnprod.azureedge.net/Images/MEPN/GTMPaternClose.png');
+    background-repeat: repeat;
+}
+/*Modified by v-dimit for Feb - 4th week release - 142296 - ends*/
+/*Modified by v-dimit for Apr - 4th week release - 142953- starts*/
+.WPC {
+    /* modified by v-rapeda for Nov second release */
+    /*background-color: #008372;*/
+    width: 28%;
+    align-content: center;
+}
+
+@media only screen and (min-width: 480px ) and (max-width: 950px) {
+    .WPC {
+        width: 20%;
+    }
+
+    .carousel img {
+        width: 95% !important;
+        margin-left: 0;
+    }
+}
+/*Modified by v-dimit for Apr - 4th week release - 142953- ends*/
+/*Modified by v-dimit for May - 2nd week release - 143001- starts*/
+#offsec2desktp {
+    display: block;
+}
+
+#offsec2mob {
+    display: none;
+}
+/*Modified by v-dimit for May - 2nd week release - 143001- ends*/
+
+/*Added start by v-prasr for V3.2*/
+.sectionlist {
+    margin: 1% 0 0 10%;
+    font-size: 1.1em;
+    color: #505050;
+}
+
+.gtmpatterntoplinks {
+    /*background: url('https://mepnprod.azureedge.net/Images/MEPN/Paralax_Tab_partrn.png') repeat;*/
+    background: #68217a;
+    padding: 1.5% 1.5%;
+    color: #FFF;
+    margin: 0.5% 0 0.5% 0 !important;
+    font-size: 1.3em;
+    font-family: 'Segoe UI Light';
+}
+/* Modified by v-rapeda for Feb second release 143965*/
+#li1EduTrans a:hover, #li1EduEmp a:hover, #li1PoCProgram a:hover, #li1PtnrDvTollkit a:hover, #li1CityNext a:hover, #li1MicInClssRm a:hover, #gtTopPDSToolkitmob a:hover,#li1CSP a:hover {
+    color: #C7C7C7;
+}
+
+#gtTopEduEmpowered a:hover,#gtTopEduTrans a:hover, #gtTopPDSToolkit a:hover, #gtTopMSinClassroom a:hover, #gtTopCityNext a:hover, #gtTopMSEduProofConcept a:hover, #gtTopMSinClassroommob a:hover {
+    color: #0066CC;
+}
+
+.yammer-content {
+    background: #FAFAFA url('https://mepnprod.azureedge.net/Images/NewMEPN/Yammer Background.jpg') no-repeat center top;
+    /*background-color: #F5F5F5;*/
+    /*background: #FAFAFA url('https://mepnprod.azureedge.net/Images/MEPN/yammerBckgrnd1.jpg') no-repeat right top;*/
+    /*background-color: #F5F5F5;*/
+    /*border-top: 1px solid #e7e9eb;
+    border-bottom: 1px solid #e7e9eb;*/
+    background-position-x: 80%;
+    /*code added start by v-namj for accessibility at 26/08*/
+    -ms-high-contrast-adjust:none;
+    /*code added end by v-namj for accessibility at 26/08*/
+}
+
+    .yammer-content h3 {
+        font-family: wf_SegoeUI,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        font-size: 1.5em;
+        font-style: normal;
+        line-height: 1.417;
+        color: #4b5c66;
+        margin-top: 0px;
+    }
+
+    .yammer-content p {
+        font-family: wf_SegoeUI,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        font-size: 1em;
+        color: #4b5c66;
+        line-height: 1.6;
+    }
+
+.y3-button-orange {
+    display: inline-block;
+    font-family: wf_SegoeUI,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    padding: 10px 15px;
+    background-color: #008A00;
+    border: 1px solid #006c30;
+    color: #fff !important;
+}
+
+.imggototopcitynext {
+    width: 20%;
+}
+
+.imggototopEdu {
+    width: 11%;
+}
+
+.imggototopmsinclass {
+    width: 21%;
+}
+
+#gtTopMSinClassroom {
+    display: block;
+}
+
+#gtTopMSinClassroommob {
+    display: none;
+}
+
+.mepnlogintopmargin {
+    margin-top: 2%;
+}
+
+@media only screen and (max-width: 480px ) {
+    .sectionlist {
+        margin: 1% 0 0 3%;
+        font-size: 1.1em;
+        color: #505050;
+        width: 92%;
+    }
+
+    .imggototopcitynext, .imggototopmsinclass, .imggototopEdu {
+        width: 23%;
+    }
+
+    #gtTopCityNext {
+        /*float: none !important;*/
+        padding-top: 0px !important;
+    }
+
+    #gtTopEduEmpowered {
+        font-size: 0.9em !important;
+        float: right;
+    }
+
+    #gtTopMSinClassroom {
+        float: right !important;
+        display: none;
+    }
+
+    #gtTopMSinClassroommob {
+        display: block;
+    }
+
+    .yammer-content {
+        /*background-color: #F5F5F5;*/
+        background: #FAFAFA no-repeat left center;
+    }
+
+    .mepnlogintopmargin {
+        margin-top: 4%;
+    }
+
+    .carousel img {
+        width: 95% !important;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1500px ) and (max-width: 2000px) {
+    .carousel img {
+        width: 95% !important;
+        margin-left: 30%;
+    }
+}
+/*Added end by v-prasr for V3.2*/
+
+

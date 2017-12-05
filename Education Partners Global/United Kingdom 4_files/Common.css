@@ -1,0 +1,1297 @@
+﻿@font-face {
+    font-family: 'Segoe UI Semibold';
+    src: url("fonts/seguisb.eot");
+    src: url("fonts/seguisb.woff") format("woff"), url("fonts/seguisb.otf") format("opentype"), url("fonts/seguisb.svg#seguisb") format("svg");
+    src: local("Segoe UI SemiBold");
+}
+
+@font-face {
+    font-family: 'Segoe UI Semilight';
+    src: url("fonts/segoeuisl.eot");
+    src: url("fonts/segoeuisl.woff") format("woff"), url("fonts/segoeuisl.otf") format("opentype"), url("fonts/segoeuisl.svg#segoeuisl") format("svg");
+    src: local("Segoe UI SemiLight");
+    /*font-weight: 300;*/
+}
+
+/*@font-face {
+    font-family: "Segoe UI light";
+    src: url('fonts/SegoeFonts/SegoeUiLight/latest.eot');
+    src: url('fonts/SegoeFonts/SegoeUiLight/latest.eot?#iefix') format('embedded-opentype'),url('fonts/SegoeFonts/SegoeUiLight/latest.woff') format('woff'),url('/fonts/SegoeFonts/SegoeUiLight/latest.ttf') format('truetype'),url('//i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.svg#web') format('svg');
+}*/
+
+/*@font-face {
+    font-family: 'wf_segoe-ui_light';
+    src: url('fonts/SegoeFonts/SegoeUiLight/latest.eot');
+    src: url('fonts/SegoeFonts/SegoeUiLight/latest.eot?#iefix') format('embedded-opentype'),url('fonts/SegoeFonts/SegoeUiLight/latest.woff') format('woff'),url('/fonts/SegoeFonts/SegoeUiLight/latest.ttf') format('truetype'),url('//i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.svg#web') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'wf_segoe-ui_light';
+    src: local('SegoeUILight'), url('//i.s-microsoft.com/fonts/Segoe-UI/West-European/Light/latest.eot?#iefix') format('embedded-opentype'), url('//i.s-microsoft.com/fonts/Segoe-UI/West-European/Light/latest.woff') format('woff'), url('//i.s-microsoft.com/fonts/Segoe-UI/West-European/Light/latest.ttf') format('truetype'), url('//i.s-microsoft.com/fonts/Segoe-UI/West-European/Light/latest.svg#web') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+/*  Commented
+    @font-face {
+    font-family: 'wf_segoe-ui_normal';
+    src: url('fonts/SegoeFonts/SegoeUi/latest.eot');
+    src: url('fonts/SegoeFonts/SegoeUi/latest.eot?#iefix') format('embedded-opentype'),url('fonts/SegoeFonts/SegoeUi/latest.woff') format('woff'),url('fonts/SegoeFonts/SegoeUi/latest.ttf') format('truetype'),url('//i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.svg#web') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'wf_segoe-ui_normal';
+    src: url('//i.s-microsoft.com/fonts/Segoe-UI/West-European/Normal/latest.eot');
+    src: local('SegoeUIBold'), url('//i.s-microsoft.com/fonts/Segoe-UI/West-European/Normal/latest.eot?#iefix') format('embedded-opentype'), url('//i.s-microsoft.com/fonts/Segoe-UI/West-European/Normal/latest.woff') format('woff'), url('//i.s-microsoft.com/fonts/Segoe-UI/West-European/Normal/latest.ttf') format('truetype'), url('//i.s-microsoft.com/fonts/Segoe-UI/West-European/Normal/latest.svg#web') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*@font-face {
+  font-family:  'SegoeUILight', 'SegoeUI';
+  font-weight:100;
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}*/
+
+/*Font setup*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /*border: 0;*/
+    font-size: 100%;
+    /*font: inherit;*/
+    vertical-align: baseline;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    /*line-height: 1;*/
+}
+
+ol, ul {
+    /*list-style: none;*/
+}
+
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*  rows  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-logo {
+    display: block;
+    float: left;
+    margin: 1% 3% 1% 0;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 0;
+}
+
+    .col:first-child {
+        margin-left: 0;
+    }
+
+.noMargin {
+    margin: 0%;
+}
+
+.leftMargin {
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: 1.5%;
+    margin-top: 0%;
+}
+
+.leftMarginTiles {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: .5%;
+}
+
+.topMargin {
+    margin-top: 1%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.bottomMargin {
+    margin: 0%;
+    margin-bottom: 1%;
+}
+
+.noPadding {
+    padding: 0%;
+}
+
+.prewrapwhitespace {
+}
+
+.WraplocalizedText {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+input[type='text'] {
+    content-zooming: zoom;
+    -ms-content-zooming: zoom;
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1; /* For IE 6/7 */
+}
+
+.verticalAlignMiddle {
+    -ms-flex-align: center;
+    flex-align: center;
+    display: -ms-flex;
+    -ms-align-items: center;
+}
+
+.excelImage {
+    height: auto;
+    width: auto;
+}
+
+.toggle-menu {
+    display: none;
+}
+
+
+.ques-modal {
+}
+
+.whiteSpaceWarp {
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+/*  GRID OF TWELVE  */
+.twelve-cols {
+    width: 100%;
+}
+
+.eleven-cols {
+    width: 91.54%;
+}
+
+.ten-cols {
+    width: 83.08%;
+}
+
+.nine-cols {
+    width: 74.62%;
+}
+
+.eight-cols {
+    width: 66.16%;
+}
+
+.seven-cols {
+    width: 57.70%;
+}
+
+.six-cols {
+    width: 49.25%;
+}
+
+.five-cols {
+    width: 40.79%;
+}
+
+.four-cols {
+    width: 32.33%;
+}
+
+.three-cols {
+    width: 23%;
+}
+
+.two-cols {
+    width: 15.41%;
+}
+
+.twocolwidth {
+    width: 15.41%;
+}
+
+.one-cols {
+    width: 6.958%;
+}
+
+/*Constant Width Class Irrespective of Device Start*/
+/*  GRID OF TWELVE  */
+.twelve-cnst {
+    width: 100%;
+}
+
+.eleven-cnst {
+    width: 91.54%;
+}
+
+.ten-cnst {
+    width: 83.08%;
+}
+
+.nine-cnst {
+    width: 74.62%;
+}
+
+.eight-cnst {
+    width: 66.16%;
+}
+
+.seven-cnst {
+    width: 57.70%;
+}
+
+.six-cnst {
+    width: 49.25%;
+}
+
+.five-cnst {
+    width: 40.79%;
+}
+
+.four-cnst {
+    width: 32.33%;
+}
+
+.three-cnst {
+    width: 23.87%;
+}
+
+.two-cnst {
+    width: 15.41%;
+}
+
+.one-cnst {
+    width: 6.958%;
+}
+
+.checkbox {
+    transform: scale(1);
+}
+
+body {
+    font-family: wf_segoe-ui_normal, wf_segoe-ui_normal !important;
+    font-size: 100%;
+}
+
+h2 {
+    font-family: "wf_segoe-ui_light";
+    font-size: 2em;
+}
+
+h3 {
+    font-family: "wf_segoe-ui_light";
+    font-size: 1.75em;
+}
+
+h4 {
+    font-family: "wf_segoe-ui_light";
+    font-size: 1.5em;
+}
+
+h5 {
+    font-family: "wf_segoe-ui_light";
+    font-size: 1.25em;
+}
+
+h6 {
+    font-family: "wf_segoe-ui_light";
+    font-size: 1em;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+.showinmobile {
+    display: none;
+}
+
+.showinmobileAEP {
+    display: none !important;
+}
+
+.showindesktop {
+    display: block;
+}
+
+.footerLinkWidth {
+    width: auto;
+}
+
+.footer {
+    width: 94%;
+    position: relative;
+    margin-top: 130px;
+    padding: 0 3% 0 3%;
+    background-color: #EBEBEB;
+    float: left;
+    font-family: 'wf_segoe-ui_normal';
+    color: #505050;
+}
+
+.footerlinks {
+    font-family: 'Segoe UI';
+    /*font-size: 14px;*/
+    font-size: .9em;
+    text-decoration: none;
+    color: #1FAEFF;
+    padding-right: 10px;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+    .footer ul li {
+        display: inline;
+        padding-right: 2%;
+    }
+
+.footer table {
+    margin-right: 2%;
+    float: right;
+}
+
+    .footer table td {
+        /*font-size: 70%;*/
+    }
+
+        .footer table td img {
+            max-width: 175px;
+        }
+
+.footerPosition {
+    /*width: inherit;*/
+    bottom: 0px;
+    /*position: absolute;*/
+    max-width: 100%;
+}
+
+.search-wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+}
+
+.mepn-searchbutton {
+    box-sizing: border-box;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+    top: 17%;
+    right: 0%;
+}
+
+.langddl {
+    padding: 4px 6px;
+    border: 1px solid #D2D2D2;
+    color: #505050;
+}
+
+.txtMEPNSearch {
+    width: 107%;
+    /*padding: 4px;*/
+    font-size: 0.85em;
+    display: inline;
+    height: 24.5px;
+    border: 1px solid #D2D2D2;
+    font-family: Segoe UI;
+    color: #505050;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0px, 0px, 0px, 0px);
+    border: 0;
+}
+
+.nametext {
+    font-family: Segoe UI;
+    font-size: 0.85em;
+    /* code added start by v-vigohi for accessibility */
+    /*color: #898989;*/
+    color: #737373;
+    /* code added end by v-vigohi for accessibility */
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.aerdettext {
+    font-family: Segoe UI Semibold;
+    font-size: 0.9em;
+    /* code added start by v-vigohi for accessibility */
+    /*color: #898989;*/
+    color: #737373;
+    /* code added end by v-vigohi for accessibility */
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.renewaldatetext {
+    padding: 0 1.5% 1.5% 1.5%;
+    font-size: 0.85em !important;
+    font-family: 'wf_segoe-ui_normal';
+    color: #505050;
+    border: 1px solid #D2D2D2;
+}
+
+.userImage {
+    height: 48px;
+    width: 48px;
+    border-radius: 40px;
+}
+
+.userdetailspopup {
+    z-index: 11001;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 64px;
+    right: 4%;
+    padding: 1.5%;
+    border: 1px solid #898989;
+    border-top: none;
+    width: 22%;
+}
+
+#userdetailspopup {
+    display: none;
+}
+
+    #userdetailspopup.show {
+        display: block;
+    }
+
+.main-nav {
+    /*padding: 0;
+        margin: 0;*/
+    height: auto;
+}
+
+.nav-menu1 {
+    margin-left: 0px;
+}
+
+    .nav-menu1 ul li {
+        display: block;
+        /*padding: 0 2% 0 2%;*/
+        /*padding: 0 1% 0 1%;*/
+        padding: 4px 0 0 0;
+        float: left;
+        height: 100%;
+    }
+
+        .nav-menu1 ul li a:active, .nav-menu1 ul li a:hover, .nav-menu1 ul li a.selected {
+            /*background: url('https://mepnprod.azureedge.net/Images/MEPN/MEPN_Pattern.png') repeat;*/
+            background-color: #492474;
+        }
+
+        .nav-menu1 ul li.first-link {
+            padding-left: 6%;
+        }
+
+        .nav-menu1 ul li div {
+            padding: 18px 0 0 0;
+        }
+
+        .nav-menu1 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            /*font-size: 14px;*/
+            font-size: 0.75em;
+            /*font-size: 0.9em;*/
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 23px 9px;
+        }
+
+.nav-menu2 {
+    margin-left: 0px;
+}
+
+    .nav-menu2 ul li {
+        display: block;
+        /*padding: 0 2% 0 2%;*/
+        padding: 3px 0 0 0;
+        float: left;
+        height: 100%;
+    }
+
+        .nav-menu2 ul li a.selected, .nav-menu2 ul li div a:active, .nav-menu2 ul li div a:hover {
+            background-color: #195b93;
+        }
+
+        .nav-menu2 ul li.first-link {
+            padding-left: 6%;
+        }
+
+        .nav-menu2 ul li div {
+            padding: 0;
+        }
+
+        .nav-menu2 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            /*font-size: 14px;*/
+            font-size: 0.75em;
+            /*font-size: 0.9em;*/
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 23px 9px;
+        }
+
+.mepnheader {
+    background-color: #5C2D91;
+    /*position: fixed;*/
+    width: 100%;
+    /*top: 64px;*/
+    z-index: 10001;
+}
+
+.aepheader {
+    background-color: #2776BA;
+    /*position: fixed;*/
+    width: 100%;
+    /*top: 126px;*/
+    z-index: 10001;
+}
+
+.bkgrndtopmargin {
+    /*margin: 188px 0 0 0;*/
+}
+
+.txtFindPartner {
+    /*width: 70%;*/
+    width: 100%;
+    padding: 4px;
+    font-size: 0.85em;
+    display: inline;
+    height: 24.5px;
+    border: 1px solid #FFFFFF;
+    font-family: Segoe UI;
+    color: #FFFFFF;
+    background-color: #8456A8;
+}
+
+input[type="text"].txtFindPartner:-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+input[type="text"].txtFindPartner::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+
+.imgfindpartnerstyle {
+    box-sizing: border-box;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+    top: 16%;
+    left: 3%;
+}
+
+.copyrights {
+    /*font-size: 12px;*/
+    font-size: .75em;
+    font-family: 'wf_segoe-ui_normal';
+    color: #505050;
+    /*margin-right: 20%;*/
+    margin-top: 2px;
+}
+
+.findpartnerstyle {
+    width: 12.5%;
+}
+
+.MEPNsearchbox {
+    width: 100%;
+    right: 0;
+    position: relative;
+}
+
+.userdetailstab {
+    width: 43.4%;
+}
+
+.marginleftmobile {
+}
+
+.img3carousel {
+    max-height: 250px;
+}
+
+.yammerdesctext {
+    font-family: Segoe UI;
+    font-size: 0.8em;
+    color: #737373;
+    /*white-space: nowrap;
+    overflow: hidden !important;*/
+    text-overflow: ellipsis;
+}
+
+/* code added start by v-vigohi for accessibility */
+
+#DivNextToLang {
+    width: 1.5%;
+}
+
+.aerCompleteAppForm_zoom {
+    border-right: 1.2px dashed #E3E3E3;
+}
+
+#DivNextToMSLogo {
+    width: 6%;
+}
+
+.ddltranslate {
+    /*width: 10%;*/
+    margin: 1% 0%;
+    float: left;
+}
+/* code added end by v-vigohi for accessibility */
+#MicrosoftLogo {
+    width: 60% !important;
+}
+
+#AuthenticatedPanel {
+}
+
+#UnAuthenticatedPanel {
+}
+
+.latestnewspadding {
+    padding: 0 3% 0 5%;
+}
+
+.AzureandOffice365width {
+    width: 85%;
+}
+
+
+@media only screen and (min-device-width : 490px) and (max-width: 768px) {
+    .main-nav {
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+
+    .nav-menu1 ul li {
+        padding: 0 0.6% 0 0.6%;
+    }
+
+        .nav-menu1 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 0.75em;
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+    .nav-menu1 {
+        margin-left: 3%;
+    }
+
+        .nav-menu1 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 0.75em;
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+    .nav-menu2 ul li {
+        padding: 4px 0 0 0;
+    }
+
+        .nav-menu2 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 0.75em;
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 23px 9px;
+        }
+
+    .nav-menu2 {
+        margin-left: 3%;
+    }
+
+        .nav-menu2 ul li a {
+            font-family: 'wf_segoe-ui_normal';
+            font-size: 0.75em;
+            color: #949494;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+    .img3carousel {
+        max-height: 250px;
+    }
+
+    /* code added start by v-vigohi for accessibility */
+
+    #DivNextToMSLogo {
+        display: none;
+    }
+
+    .aerSearch_zoom {
+        width: 90%;
+        font-size: 0.55em;
+    }
+
+    .aerLang_zoom {
+        font-size: 0.55em;
+    }
+
+    .aerRenew_zoom {
+        font-size: 0.55em;
+    }
+
+        .aerRenew_zoom div span span {
+            padding-left: 26%;
+        }
+
+    #DivNextToLang {
+        width: 7.5%;
+    }
+
+    .renewaldatetext {
+        padding-left: 26%;
+        border: 0;
+    }
+
+    #userdetailspopup {
+        font-size: 0.55em;
+        right: 2%;
+        top: 48px;
+    }
+
+        #userdetailspopup div div div span {
+            padding-left: 10%;
+        }
+
+    .userImage {
+        height: 40px;
+        width: 40px;
+        border-radius: 40px;
+    }
+
+    .aerTakeTest_zoom {
+        margin-left: 25%;
+    }
+
+    .footer {
+        width: 91%;
+    }
+
+    .aerCompleteAppForm_zoom {
+        width: 52%;
+        border: 0;
+    }
+
+    #ContentPlaceHolder1_btnCompleteTest_ApplicationForm_1 {
+        margin-left: 12%;
+    }
+
+    .scstoriesvdcont {
+        margin-top: 1px;
+        width: 100%;
+    }
+
+    .txtFindPartner {
+        width: 90%;
+        padding: 4px;
+        font-size: 0.85em;
+        display: inline;
+        height: 24.5px;
+        border: 1px solid #FFFFFF;
+        font-family: Segoe UI;
+        color: #FFFFFF;
+        background-color: #8456A8;
+    }
+    /* code added end by v-vigohi for accessibility */
+}
+
+@media only screen and (min-device-width : 768px) and (max-width: 1020px) {
+    .nav-menu1 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 0.8em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .nav-menu2 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 0.8em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .img3carousel {
+        max-height: 250px;
+    }
+}
+
+/*@media only screen and (max-width:767px) and (min-device-width:480px)*/
+@media only screen and (min-device-width: 520px) and (max-width: 767px) {
+    .findpartnerstyle {
+        width: 21%;
+        font-size: 0.75em;
+    }
+}
+
+@media only screen and (min-device-width : 1020px) and (max-width: 1400px) {
+    .nav-menu1 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 0.8em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .nav-menu2 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 0.8em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .img3carousel {
+        max-height: 250px;
+    }
+     .AzureandOffice365width {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-device-width : 1500px) and (max-width: 2000px) {
+    .nav-menu1 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 1em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .nav-menu2 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 1em;
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .img3carousel {
+        max-height: 258px !important;
+    }
+
+    .AzureandOffice365width {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-device-width : 2001px) and (max-width: 2500px) {
+    .img3carousel {
+        max-height: 258px;
+    }
+    .AzureandOffice365width {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-device-width : 2501px) and (max-width: 3000px) {
+    .img3carousel {
+        max-height: 262px;
+    }
+}
+
+/* For MOBILE DEVICES LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 70%;
+    }
+
+    .twelve-cols {
+        width: 100%;
+    }
+
+    .eleven-cols {
+        width: 100%;
+    }
+
+    .ten-cols {
+        width: 100%;
+    }
+
+    .nine-cols {
+        width: 100%;
+    }
+
+    .eight-cols {
+        width: 100%;
+    }
+
+    .seven-cols {
+        width: 100%;
+    }
+
+    .six-cols {
+        width: 100%;
+    }
+
+    .five-cols {
+        width: 100%;
+    }
+
+    .four-cols {
+        width: 100%;
+    }
+
+    .three-cols {
+        width: 100%;
+    }
+
+    .two-cols {
+        width: 100%;
+    }
+
+    .one-cols {
+        width: 100%;
+    }
+
+    .leftpadding {
+        padding-left: 0%;
+    }
+
+    .leftmargintwo {
+        margin-left: 4%;
+    }
+
+    .clear-seperator {
+        display: none;
+    }
+
+    .checkbox {
+        transform: scale(0.8);
+    }
+
+    .leftspacing {
+        padding-left: 20%;
+    }
+
+    .black_overlay {
+        /*display: none;*/
+    }
+
+    .ques-box {
+        background: #008272;
+        color: white;
+        float: left;
+        margin: 1%;
+    }
+
+    .showinmobile {
+        display: none;
+    }
+
+    .showindesktop {
+        display: block;
+    }
+
+    .showinmobileAEP {
+        display: block !important;
+    }
+
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+
+    .prewrapwhitespace {
+        white-space: pre-wrap;
+    }
+
+    .nav-menu1 ul {
+        display: none;
+        overflow: hidden;
+    }
+
+        .nav-menu1 ul li {
+            display: block;
+            padding: 5px;
+            font-size: 125%;
+            float: none;
+        }
+
+            .nav-menu1 ul li a:active, .nav-menu1 ul li a:hover, .nav-menu1 ul li a.selected {
+                background-color: #492474;
+            }
+
+            .nav-menu1 ul li div {
+                padding: 0;
+            }
+
+            .nav-menu1 ul li :visited {
+                display: block;
+                padding: 5px;
+                font-size: 125%;
+                color: blue;
+            }
+
+            .nav-menu1 ul li.first-link {
+                padding-left: 5px;
+            }
+
+    .nav-menu1 label {
+        background-color: #238dad;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        /*background: #912eff;*/
+        background: #5C2D91;
+        padding: 5px;
+    }
+
+    .nav-menu1 input:checked ~ label {
+        background: #ff8800;
+    }
+
+    .nav-menu1 input:checked ~ ul {
+        display: block;
+    }
+
+    .nav-menu2 ul {
+        display: none;
+        overflow: hidden;
+    }
+
+        .nav-menu2 ul li {
+            display: block;
+            padding: 5px;
+            font-size: 125%;
+            float: none;
+        }
+
+    .nav-menu1 ul li a {
+        padding: 2px 2px;
+    }
+
+    .nav-menu2 ul li div {
+        padding: 0;
+    }
+
+    .nav-menu2 ul li :visited {
+        display: block;
+        padding: 5px;
+        font-size: 125%;
+        color: blue;
+    }
+
+    .nav-menu2 ul li.first-link {
+        padding-left: 5px;
+    }
+
+    .nav-menu2 ul li a {
+        font-family: 'wf_segoe-ui_normal';
+        font-size: 0.75em; /*10px;*/
+        color: #949494;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 5px 5px;
+    }
+
+    .nav-menu2 label {
+        /*background-color: #238dad;*/
+        /*background-color: #32a0ff;*/
+        background-color: #2776ba;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        /*background: #293B49;*/
+        padding: 5px;
+    }
+
+    .nav-menu2 input:checked ~ label {
+        background: #ff8800;
+    }
+
+    .nav-menu2 input:checked ~ ul {
+        display: block;
+        background-color: transparent;
+    }
+
+    .findpartnerstyle {
+        width: 42%;
+    }
+
+    .MEPNsearchbox {
+        width: 41%;
+    }
+
+    .userdetailstab {
+        /*width: 100%;*/
+        width: 72px;
+        text-align: center;
+        margin: 0;
+    }
+
+    #UnAuthenticatedPanel {
+        margin-left: -16%;
+        font-size: 1em;
+    }
+
+    .userdetailspopup {
+        z-index: 11001;
+        position: absolute;
+        background-color: #FFFFFF;
+        top: 32.5%;
+        padding: 1.5%;
+        border: 1px solid #898989;
+        border-top: none;
+        width: 60%;
+        left: 12%;
+    }
+
+    .marginleftmobile {
+        margin-left: 3% !important;
+    }
+
+    .userImage {
+        height: 24px;
+        width: 24px !important;
+        border-radius: 20px;
+    }
+
+    .aerSearch_zoom {
+        font-size: 0.95em;
+    }
+
+    .aerLang_zoom {
+        font-size: 0.85em;
+    }
+
+    .aerRenew_zoom {
+        font-size: 0.95em;
+    }
+
+    #MicrosoftLogo {
+        /*width: 45% !important;*/
+        width: 100% !important;
+    }
+
+    #userdetailspopup {
+        font-size: 0.85em;
+        /*right: 2%;
+        top: 48px;*/
+        margin-top: -5%;
+        margin-left: 24%;
+    }
+
+    .renewaldatetext {
+        padding-left: 2%;
+        border: 0;
+        font-size: 0.95em;
+    }
+
+    .twocolwidth {
+        width: 100px;
+        margin: 0;
+    }
+
+    .ddltranslate {
+        margin-left: 4%;
+        margin-top: 0;
+        /*float: none;*/
+        width: 120px;
+    }
+
+    #AuthenticatedPanel {
+        margin-top: 0%;
+        margin-left: 0% !important;
+    }
+
+    .nav-menu1 {
+        margin-left: 0%;
+    }
+
+    .nav-menu2 {
+        margin-left: 0%;
+    }
+
+    .latestnewspadding {
+        padding: 0 3% 0 0%;
+    }
+}
+/* End of Grid Setup */
